@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  有关如何配置 ASP.NET 应用程序的详细信息，请访问
+  https://go.microsoft.com/fwlink/?LinkId=169433
+-->
+<configuration>
+  <configSections>
+    <sectionGroup name="iBATIS">
+      <section name="logging" type="IBatisNet.Common.Logging.ConfigurationSectionHandler, IBatisNet.Common" />
+    </sectionGroup>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
+    <section name="exceptionless" type="Exceptionless.ExceptionlessSection, Exceptionless" />
+  </configSections>
+  <iBATIS>
+    <logging>
+      <logFactoryAdapter type="IBatisNet.Common.Logging.Impl.Log4NetLoggerFA, IBatisNet.Common.Logging.Log4Net">
+        <arg key="configType" value="FILE" />
+        <arg key="configFile" value="log4net.config" />
+      </logFactoryAdapter>
+    </logging>
+  </iBATIS>
+  <appSettings>
+    <add key="simpleConf.AppKey" value="6a155fb767a64fb4bae65dc7b3c293bc"/>
+  </appSettings>
+  <exceptionless apiKey="API_KEY_HERE" />
+  <system.web>
+    <compilation debug="true" targetFramework="4.5" />
+    <httpRuntime targetFramework="4.5" />
+    <sessionState mode="Custom" customProvider="redisSessionStateProvider" cookieName="sessionId" sessionIDManagerType="CT.Common.RedisSessionStateProvider.SessionIdManager">
+      <providers>
+        <add name="redisSessionStateProvider" type="Microsoft.Web.Redis.RedisSessionStateProvider,CT.Common" />
+      </providers>
+    </sessionState>
+  </system.web>
+  <system.data>
+    <DbProviderFactories>
+      <remove invariant="MySql.Data.MySqlClient" />
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    </DbProviderFactories>
+  </system.data>
+  <system.webServer>
+    <handlers>
+      <remove name="ExtensionlessUrlHandler-Integrated-4.0" />
+      <remove name="OPTIONSVerbHandler" />
+      <remove name="TRACEVerbHandler" />
+      <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
+    </handlers>
+  </system.webServer>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" culture="neutral" publicKeyToken="30ad4fe6b2a6aeed" />
+        <bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="log4net" culture="neutral" publicKeyToken="669e0ddf0bb1aa2a" />
+        <bindingRedirect oldVersion="0.0.0.0-2.0.8.0" newVersion="2.0.8.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

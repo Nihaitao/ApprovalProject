@@ -1,0 +1,1336 @@
+[2017-10-20 10:14:29,673][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:14:29,692][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:14:29,693][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:14:29,693][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:14:29,723][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:14:29,724][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:14:29,724][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:14:29,726][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:14:29,726][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:14:29,726][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:14:29,728][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:14:29,728][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:14:29,728][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:14:29,730][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:14:29,730][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:14:29,730][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:14:29,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:14:29,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:14:29,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:14:29,732][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：
+[2017-10-20 10:14:29,733][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:14:29,733][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:14:29,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:14:29,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:14:29,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:14:29,735][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:14:29,736][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:14:29,736][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:14:29,737][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:14:29,737][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:14:29,738][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:14:29,739][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:14:29,740][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:14:29,740][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:14:29,742][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:14:29,742][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:14:29,742][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:14:29,744][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:14:29,745][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:14:29,745][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:14:29,747][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:14:29,748][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:14:29,748][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:14:29,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:14:29,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:14:29,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:14:29,753][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:14:29,753][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:14:29,753][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:14:29,755][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:14:29,755][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:14:29,756][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:14:29,758][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:14:29,758][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:14:29,758][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:14:29,759][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:14:29,759][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:14:29,759][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:14:29,761][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:14:29,761][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:14:29,761][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:14:29,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:14:29,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:14:29,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:14:29,767][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:14:29,767][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:14:29,767][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AutoDynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:14:29,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:14:29,771][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:14:29,784][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:14:29,845][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:14:29,857][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:14:33,389][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Testaaa
+[2017-10-20 10:14:33,419][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectStationByAccessId] PreparedStatement : [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:14:33,425][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectStationByAccessId] Parameters: [@param0=[value,5666]]
+[2017-10-20 10:14:33,426][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectStationByAccessId] Types: [@param0=[String, System.String]]
+[2017-10-20 10:14:33,570][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "28062782" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:14:38,064][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "28062782" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:14:38,071][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- API服务系统异常
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'test123.h_station' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 IBatisNet.DataMapper.Commands.DbCommandDecorator.System.Data.IDbCommand.ExecuteReader()
+   在 IBatisNet.DataMapper.MappedStatements.MappedStatement.RunQueryForObject[T](RequestScope request, ISqlMapSession session, Object parameterObject, T resultObject)
+   在 IBatisNet.DataMapper.MappedStatements.MappedStatement.ExecuteQueryForObject[T](ISqlMapSession session, Object parameterObject, T resultObject)
+   在 IBatisNet.DataMapper.MappedStatements.MappedStatement.ExecuteQueryForObject[T](ISqlMapSession session, Object parameterObject)
+   在 IBatisNet.DataMapper.SqlMapper.QueryForObject[T](String statementName, Object parameterObject)
+   在 CommonFramework.IBatisNet.SqlMap.GeneralApiMapper.QueryForObject[T](String statementName, Object parameterObject)
+   在 CommonFramework.IBatisNet.SqlMap.GeneralApiMapper.QueryForDictionary(String statementName, Object parameterObject)
+   在 DemoProject.Web.Controller.DemoController.Testaaa() 位置 D:\project\dotnet\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 22
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:21:25,422][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:21:25,448][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:21:25,449][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:21:25,449][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:21:25,451][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:21:25,451][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:21:25,451][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:21:25,453][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:21:25,453][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:21:25,453][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:21:25,454][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:21:25,454][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:21:25,455][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:21:25,456][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:21:25,456][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:21:25,456][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:21:25,457][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:21:25,457][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:21:25,457][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:21:25,458][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:21:25,459][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:21:25,459][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:21:25,460][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:21:25,461][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:21:25,461][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:21:25,462][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:21:25,462][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:21:25,462][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:21:25,463][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:21:25,463][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:21:25,463][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:21:25,464][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:21:25,465][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:21:25,465][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:21:25,466][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:21:25,467][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:21:25,467][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:21:25,469][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:21:25,469][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:21:25,469][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:21:25,471][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:21:25,471][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:21:25,471][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:21:25,474][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:21:25,474][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:21:25,474][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:21:25,476][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:21:25,476][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:21:25,476][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:21:25,477][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:21:25,477][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:21:25,478][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:21:25,480][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:21:25,480][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:21:25,480][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:21:25,482][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:21:25,482][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:21:25,482][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:21:25,483][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:21:25,484][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:21:25,484][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:21:25,485][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:21:25,486][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:21:25,486][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:21:25,488][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:21:25,488][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:21:25,488][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:21:25,491][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:21:25,491][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:21:25,491][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:21:25,493][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:21:25,494][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:21:25,506][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:21:25,558][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:21:25,570][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:21:25,573][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:22:04,335][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:22:04,353][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:22:04,354][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:22:04,354][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:22:04,357][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:22:04,357][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:22:04,357][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:22:04,359][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:22:04,360][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:22:04,360][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:22:04,362][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:22:04,362][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:22:04,362][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:22:04,364][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:22:04,364][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:22:04,364][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:22:04,366][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:22:04,366][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:22:04,366][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:22:04,370][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:22:04,371][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:22:04,371][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:22:04,373][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:22:04,373][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:22:04,373][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:22:04,374][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:22:04,375][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:22:04,375][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:22:04,376][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:22:04,377][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:22:04,377][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:22:04,378][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:22:04,378][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:22:04,378][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:22:04,380][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:22:04,380][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:22:04,380][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:22:04,382][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:22:04,382][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:22:04,382][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:22:04,384][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:22:04,385][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:22:04,385][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:22:04,387][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:22:04,388][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:22:04,388][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:22:04,390][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:22:04,390][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:22:04,390][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:22:04,392][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:22:04,393][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:22:04,393][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:22:04,395][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:22:04,396][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:22:04,396][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:22:04,398][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:22:04,399][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:22:04,399][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:22:04,401][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:22:04,401][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:22:04,401][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:22:04,404][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:22:04,404][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:22:04,405][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:22:04,408][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:22:04,409][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:22:04,409][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:22:04,416][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:22:04,416][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:22:04,416][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:22:04,422][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:22:04,422][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:22:04,436][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:22:04,524][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:22:04,537][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:22:04,541][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:22:50,712][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:22:50,730][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:22:50,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:22:50,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:22:50,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:22:50,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:22:50,734][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:22:50,736][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:22:50,736][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:22:50,736][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:22:50,737][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:22:50,738][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:22:50,738][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:22:50,739][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:22:50,739][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:22:50,739][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:22:50,740][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:22:50,740][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:22:50,740][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:22:50,741][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:22:50,741][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:22:50,742][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:22:50,744][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:22:50,744][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:22:50,744][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:22:50,746][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:22:50,746][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:22:50,746][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:22:50,748][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:22:50,748][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:22:50,748][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:22:50,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:22:50,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:22:50,750][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:22:50,752][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:22:50,753][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:22:50,753][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:22:50,755][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:22:50,755][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:22:50,755][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:22:50,757][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:22:50,757][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:22:50,757][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:22:50,760][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:22:50,760][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:22:50,760][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:22:50,762][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:22:50,762][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:22:50,762][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:22:50,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:22:50,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:22:50,764][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:22:50,766][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:22:50,766][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:22:50,766][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:22:50,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:22:50,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:22:50,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:22:50,769][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:22:50,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:22:50,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:22:50,771][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:22:50,771][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:22:50,772][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:22:50,774][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:22:50,774][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:22:50,775][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:22:50,778][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:22:50,778][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:22:50,778][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:22:50,780][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:22:50,780][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:22:50,795][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:22:50,851][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:22:50,862][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:22:50,865][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:23:07,131][thdId:5]-[DEBUG]-[CommonFramework.Mvc.RequestVerification][Initialization]-- 签名参数为空
+[2017-10-20 10:23:07,137][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+System.ArgumentNullException: 值不能为 null。
+参数名: 签名参数为空
+   在 CommonFramework.Mvc.RequestVerification.Initialization()
+   在 CommonFramework.Mvc.RequestVerification.CheckTimeOut(Int32 millisecond)
+   在 CT.Common.Mvc.Filter.StationAuthorizeFilter.AuthenticateAsync(HttpAuthenticationContext context, CancellationToken cancellationToken)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:23:35,747][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:23:35,765][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:23:35,766][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:23:35,766][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:23:35,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:23:35,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:23:35,768][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:23:35,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:23:35,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:23:35,770][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:23:35,772][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:23:35,772][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:23:35,772][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:23:35,773][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:23:35,773][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:23:35,774][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:23:35,775][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:23:35,775][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:23:35,775][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:23:35,777][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:23:35,778][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:23:35,778][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:23:35,779][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:23:35,779][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:23:35,779][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:23:35,781][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:23:35,781][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:23:35,781][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:23:35,782][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:23:35,782][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:23:35,782][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:23:35,784][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:23:35,785][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:23:35,785][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:23:35,787][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:23:35,787][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:23:35,788][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:23:35,793][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:23:35,793][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:23:35,793][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:23:35,796][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:23:35,796][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:23:35,796][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:23:35,798][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:23:35,798][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:23:35,799][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:23:35,801][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:23:35,801][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:23:35,801][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:23:35,803][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:23:35,803][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:23:35,803][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:23:35,805][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:23:35,805][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:23:35,805][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:23:35,807][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:23:35,807][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:23:35,807][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:23:35,812][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:23:35,812][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:23:35,812][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:23:35,815][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:23:35,815][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:23:35,815][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:23:35,818][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:23:35,818][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:23:35,819][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:23:35,821][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:23:35,822][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:23:35,822][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:23:35,824][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:23:35,824][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:23:35,838][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:23:35,892][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:23:35,904][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:23:35,907][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:24:11,004][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:24:11,024][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:24:11,026][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:24:11,027][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:24:11,030][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:24:11,030][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:24:11,030][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:24:11,032][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:24:11,032][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:24:11,032][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:24:11,033][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:24:11,034][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:24:11,034][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:24:11,035][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:24:11,035][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:24:11,035][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:24:11,036][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:24:11,036][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:24:11,036][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:24:11,037][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:24:11,037][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:24:11,037][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:24:11,038][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:24:11,038][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:24:11,038][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:24:11,039][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:24:11,039][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:24:11,040][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:24:11,041][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:24:11,041][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:24:11,041][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:24:11,043][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:24:11,043][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:24:11,043][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:24:11,045][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:24:11,045][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:24:11,045][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:24:11,047][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:24:11,047][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:24:11,048][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:24:11,049][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:24:11,050][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:24:11,050][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:24:11,052][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:24:11,052][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:24:11,052][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:24:11,054][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:24:11,054][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:24:11,054][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:24:11,056][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:24:11,056][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:24:11,056][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:24:11,058][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:24:11,058][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:24:11,058][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:24:11,061][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:24:11,061][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:24:11,062][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:24:11,063][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:24:11,063][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:24:11,063][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:24:11,065][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:24:11,065][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:24:11,066][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:24:11,070][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:24:11,070][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:24:11,070][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:24:11,073][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:24:11,073][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:24:11,073][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:24:11,075][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:24:11,075][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:24:11,088][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:24:11,144][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:24:11,155][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:24:11,159][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:24:27,128][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=1111
+[2017-10-20 10:24:27,131][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=1111]
+[2017-10-20 10:24:29,367][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+System.ArgumentNullException: You must set the singleton 'OrmLiteConfig.DialectProvider' to use the OrmLiteWriteExtensions
+参数名: DialectProvider
+   在 ServiceStack.OrmLite.OrmLiteConfig.get_DialectProvider()
+   在 ServiceStack.OrmLite.OrmLiteConfig.GetExecFilter(IDbConnection db)
+   在 ServiceStack.OrmLite.OrmLiteReadExpressionsApi.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.Insert[T](IDbConnection dbConn, T obj, Boolean selectIdentity)
+   在 DemoProject.Business.TestMapper.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Business\TestMapper.cs:行号 39
+   在 DemoProject.Web.Controller.DemoController.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 33
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:26:53,471][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:26:53,499][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:26:53,503][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:26:53,504][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:26:53,506][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:26:53,507][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:26:53,507][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:26:53,509][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:26:53,510][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:26:53,512][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:26:53,517][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:26:53,518][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:26:53,518][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:26:53,520][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:26:53,520][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:26:53,520][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:26:53,521][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:26:53,522][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:26:53,522][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:26:53,523][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:26:53,523][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:26:53,523][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:26:53,528][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:26:53,529][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:26:53,530][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:26:53,534][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:26:53,534][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:26:53,535][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:26:53,557][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:26:53,563][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:26:53,563][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:26:53,566][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:26:53,566][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:26:53,566][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:26:53,569][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:26:53,570][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:26:53,570][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:26:53,573][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:26:53,573][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:26:53,573][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:26:53,578][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:26:53,579][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:26:53,579][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:26:53,582][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:26:53,582][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:26:53,582][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:26:53,584][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:26:53,585][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:26:53,585][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:26:53,588][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:26:53,588][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:26:53,588][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:26:53,590][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:26:53,590][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:26:53,590][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:26:53,593][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:26:53,593][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:26:53,594][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:26:53,595][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:26:53,595][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:26:53,595][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:26:53,597][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:26:53,597][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:26:53,597][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:26:53,599][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:26:53,599][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:26:53,599][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:26:53,602][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:26:53,602][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:26:53,602][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:26:53,604][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:26:53,604][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:26:53,618][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:26:53,676][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:26:53,689][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:26:53,692][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:27:33,919][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:27:33,952][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:27:33,953][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:27:33,953][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:27:33,956][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:27:33,957][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:27:33,957][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:27:33,959][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:27:33,960][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:27:33,960][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:27:33,962][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:27:33,963][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:27:33,963][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:27:33,964][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:27:33,965][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:27:33,965][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:27:33,966][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:27:33,968][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:27:33,968][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:27:33,968][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:27:33,969][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:27:33,969][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:27:33,970][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:27:33,971][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:27:33,971][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:27:33,971][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:27:33,973][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:27:33,973][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:27:33,973][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:27:33,975][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:27:33,975][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:27:33,976][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:27:33,978][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:27:33,978][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:27:33,978][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:27:33,981][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:27:33,982][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:27:33,982][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:27:33,984][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:27:33,984][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:27:33,985][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:27:33,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:27:33,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:27:33,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:27:33,988][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:27:33,988][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:27:33,988][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:27:33,989][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:27:33,989][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:27:33,990][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:27:33,992][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:27:33,992][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:27:33,992][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:27:33,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:27:33,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:27:33,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:27:33,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:27:33,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:27:33,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:27:33,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:27:33,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:27:33,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:27:34,001][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:27:34,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:27:34,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:27:34,003][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:27:34,003][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:27:34,017][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:27:34,072][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:27:34,083][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:27:34,087][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:27:47,354][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=1111
+[2017-10-20 10:27:47,358][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=1111]
+[2017-10-20 10:27:48,701][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 ServiceStack.OrmLite.OrmLiteCommand.ExecuteScalar()
+   在 ServiceStack.OrmLite.OrmLiteResultsFilterExtensions.ExecLongScalar(IDbCommand dbCmd, String sql)
+   在 ServiceStack.OrmLite.OrmLiteWriteCommandExtensions.Insert[T](IDbCommand dbCmd, T obj, Boolean selectIdentity)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.<>c__DisplayClass5_0`1.<Insert>b__0(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.OrmLiteExecFilter.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadExpressionsApi.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.Insert[T](IDbConnection dbConn, T obj, Boolean selectIdentity)
+   在 DemoProject.Business.TestMapper.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Business\TestMapper.cs:行号 39
+   在 DemoProject.Web.Controller.DemoController.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 33
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:29:18,960][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:29:18,977][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:29:18,978][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:29:18,978][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:29:18,980][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:29:18,981][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:29:18,981][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:29:18,982][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:29:18,983][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:29:18,983][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:29:18,985][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:29:18,985][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:29:18,985][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:29:18,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:29:18,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:29:18,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:29:18,987][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:29:18,987][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:29:18,988][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:29:18,988][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:29:18,989][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:29:18,989][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:29:18,990][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:29:18,990][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:29:18,990][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:29:18,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:29:18,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:29:18,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:29:18,992][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:29:18,992][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:29:18,993][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:29:18,993][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:29:18,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:29:18,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:29:18,995][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:29:18,995][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:29:18,995][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:29:18,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:29:18,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:29:18,998][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:29:18,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:29:19,000][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:29:19,000][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:29:19,001][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:29:19,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:29:19,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:29:19,003][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:29:19,004][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:29:19,004][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:29:19,005][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:29:19,005][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:29:19,005][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:29:19,007][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:29:19,007][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:29:19,007][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:29:19,012][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:29:19,012][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:29:19,012][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:29:19,014][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:29:19,014][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:29:19,014][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:29:19,016][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:29:19,016][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:29:19,016][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:29:19,018][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:29:19,019][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:29:19,019][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:29:19,023][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:29:19,023][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:29:19,023][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:29:19,026][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:29:19,026][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:29:19,039][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:29:19,096][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:29:19,108][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:29:19,111][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:29:30,112][thdId:7]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=1111
+[2017-10-20 10:29:30,116][thdId:7]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=1111]
+[2017-10-20 10:29:32,495][thdId:7]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   在 ServiceStack.OrmLite.OrmLiteCommand.ExecuteScalar()
+   在 ServiceStack.OrmLite.OrmLiteResultsFilterExtensions.ExecLongScalar(IDbCommand dbCmd, String sql)
+   在 ServiceStack.OrmLite.OrmLiteWriteCommandExtensions.Insert[T](IDbCommand dbCmd, T obj, Boolean selectIdentity)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.<>c__DisplayClass5_0`1.<Insert>b__0(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.OrmLiteExecFilter.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadExpressionsApi.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.Insert[T](IDbConnection dbConn, T obj, Boolean selectIdentity)
+   在 DemoProject.Business.TestMapper.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Business\TestMapper.cs:行号 39
+   在 DemoProject.Web.Controller.DemoController.Add(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 33
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:31:44,662][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:31:44,678][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:31:44,679][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:31:44,679][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:31:44,682][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:31:44,683][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:31:44,683][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:31:44,685][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:31:44,685][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:31:44,685][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:31:44,687][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:31:44,687][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:31:44,688][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:31:44,689][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:31:44,689][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:31:44,689][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:31:44,690][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:31:44,690][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:31:44,691][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:31:44,692][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:31:44,692][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:31:44,692][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:31:44,693][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:31:44,693][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:31:44,693][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:31:44,694][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:31:44,694][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:31:44,695][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:31:44,696][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:31:44,696][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:31:44,696][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:31:44,697][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:31:44,698][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:31:44,698][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:31:44,699][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:31:44,700][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:31:44,700][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:31:44,702][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:31:44,702][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:31:44,702][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:31:44,704][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:31:44,704][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:31:44,704][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:31:44,706][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:31:44,707][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:31:44,707][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:31:44,709][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:31:44,710][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:31:44,710][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:31:44,712][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:31:44,712][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:31:44,712][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:31:44,714][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:31:44,714][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:31:44,714][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:31:44,716][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:31:44,716][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:31:44,716][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:31:44,717][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:31:44,717][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:31:44,718][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:31:44,719][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:31:44,720][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:31:44,720][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:31:44,722][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:31:44,722][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:31:44,722][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:31:44,725][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:31:44,725][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:31:44,726][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:31:44,730][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:31:44,731][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:31:44,747][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:31:44,811][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:31:44,823][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:31:44,826][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:31:47,848][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List?Name=2323
+[2017-10-20 10:31:47,850][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=2323]
+[2017-10-20 10:31:48,981][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+IBatisNet.Common.Exceptions.ProbeException: There is no Get member named 'id' in class '<>f__AnonymousType0`1'
+   在 IBatisNet.Common.Utilities.Objects.ObjectProbe.GetMember(Object obj, String memberName, AccessorFactory accessorFactory)
+   在 IBatisNet.Common.Utilities.Objects.ObjectProbe.GetMemberValue(Object obj, String memberName, AccessorFactory accessorFactory)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsEmptyTagHandler.IsCondition(SqlTagContext ctx, SqlTag tag, Object parameterObject)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsNotEmptyTagHandler.IsCondition(SqlTagContext ctx, SqlTag tag, Object parameterObject)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.ConditionalTagHandler.DoStartFragment(SqlTagContext ctx, SqlTag tag, Object parameterObject)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql.ProcessBodyChildren(RequestScope request, SqlTagContext ctx, Object parameterObject, IEnumerator localChildren, StringBuilder buffer)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql.ProcessBodyChildren(RequestScope request, SqlTagContext ctx, Object parameterObject, IEnumerator localChildren, StringBuilder buffer)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql.ProcessBodyChildren(RequestScope request, SqlTagContext ctx, Object parameterObject, IList localChildren)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql.Process(RequestScope request, Object parameterObject)
+   在 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql.GetRequestScope(IMappedStatement mappedStatement, Object parameterObject, ISqlMapSession session)
+   在 IBatisNet.DataMapper.MappedStatements.MappedStatement.ExecuteQueryForList(ISqlMapSession session, Object parameterObject, IList resultObject)
+   在 IBatisNet.DataMapper.SqlMapper.QueryForList(String statementName, Object parameterObject, IList resultObject)
+   在 CommonFramework.IBatisNet.BaseMapper.QueryForList(String statementName, Object parameterObject)
+   在 DemoProject.Business.TestMapper.selectTest(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Business\TestMapper.cs:行号 27
+   在 DemoProject.Web.Controller.DemoController.List(String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 24
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:32:38,134][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:32:38,210][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:32:38,211][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:32:38,211][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:32:38,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:32:38,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:32:38,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:32:38,216][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:32:38,216][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:32:38,216][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:32:38,217][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:32:38,218][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:32:38,218][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:32:38,219][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:32:38,219][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:32:38,219][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:32:38,220][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:32:38,220][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:32:38,221][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:32:38,221][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:32:38,222][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:32:38,222][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:32:38,223][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:32:38,223][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:32:38,223][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:32:38,224][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:32:38,224][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:32:38,224][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:32:38,225][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:32:38,225][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:32:38,225][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:32:38,226][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:32:38,227][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:32:38,227][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:32:38,228][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:32:38,228][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:32:38,228][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:32:38,230][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:32:38,230][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:32:38,230][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:32:38,232][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:32:38,232][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:32:38,233][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:32:38,235][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:32:38,235][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:32:38,235][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:32:38,237][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:32:38,237][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:32:38,237][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:32:38,239][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:32:38,239][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:32:38,240][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:32:38,242][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:32:38,242][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:32:38,242][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:32:38,245][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:32:38,245][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:32:38,245][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:32:38,246][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:32:38,246][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:32:38,246][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:32:38,248][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:32:38,248][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:32:38,248][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:32:38,250][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:32:38,250][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:32:38,250][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:32:38,253][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:32:38,253][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:32:38,253][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:32:38,255][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:32:38,255][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:32:38,267][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:32:38,333][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:32:38,344][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:32:38,347][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:32:41,489][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List?Name=2323
+[2017-10-20 10:32:41,508][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=2323]
+[2017-10-20 10:32:41,539][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test         where              `name`= @param0]
+[2017-10-20 10:32:41,544][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test         where              `name`= @param0]
+[2017-10-20 10:32:41,554][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectTestStatement] Parameters: [@param0=[name,2323]]
+[2017-10-20 10:32:41,554][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectTestStatement] Types: [@param0=[String, System.String]]
+[2017-10-20 10:32:41,703][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "20726372" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:32:41,710][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "20726372" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:32:46,859][thdId:6]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List
+[2017-10-20 10:32:46,860][thdId:6]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=]
+[2017-10-20 10:32:46,861][thdId:6]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test]
+[2017-10-20 10:32:46,861][thdId:6]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test]
+[2017-10-20 10:32:46,864][thdId:6]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "35320229" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:32:46,866][thdId:6]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "35320229" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:32:57,397][thdId:6]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=1111
+[2017-10-20 10:32:57,398][thdId:6]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=1111]
+[2017-10-20 10:33:12,589][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List?name=1111
+[2017-10-20 10:33:12,590][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=1111]
+[2017-10-20 10:33:12,591][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test         where              `name`= @param0]
+[2017-10-20 10:33:12,592][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test         where              `name`= @param0]
+[2017-10-20 10:33:12,593][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectTestStatement] Parameters: [@param0=[name,1111]]
+[2017-10-20 10:33:12,594][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][ApplyParameterMap]-- Statement Id: [selectTestStatement] Types: [@param0=[String, System.String]]
+[2017-10-20 10:33:12,673][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "28972298" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:33:12,680][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "28972298" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:33:23,508][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Update?name=11112&id=1
+[2017-10-20 10:33:23,509][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [id=1]
+[2017-10-20 10:33:23,509][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=11112]
+[2017-10-20 10:33:24,688][thdId:5]-[ERROR]-[CommonFramework.Mvc.Filter.ExceptionFilter][ExecuteExceptionFilterAsync]-- 系统异常：
+System.InvalidOperationException: Connection must be valid and open.
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 ServiceStack.OrmLite.OrmLiteCommand.ExecuteNonQuery()
+   在 ServiceStack.OrmLite.OrmLiteResultsFilterExtensions.ExecNonQuery(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.OrmLiteWriteCommandExtensions.Update[T](IDbCommand dbCmd, T obj, Action`1 commandFilter)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.<>c__DisplayClass9_0`1.<Update>b__0(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.OrmLiteExecFilter.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadExpressionsApi.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteWriteApi.Update[T](IDbConnection dbConn, T obj, Action`1 commandFilter)
+   在 DemoProject.Business.TestMapper.Update(Test test) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Business\TestMapper.cs:行号 60
+   在 DemoProject.Web.Controller.DemoController.Update(Int32 id, String name) 位置 C:\Users\libin\Desktop\DemoProject\DemoProject.Web\Controller\DemoController.cs:行号 47
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+[2017-10-20 10:35:32,394][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Update?name=11112&id=1
+[2017-10-20 10:35:32,396][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [id=1]
+[2017-10-20 10:35:32,396][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=11112]
+[2017-10-20 10:40:55,829][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:40:55,904][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:40:55,906][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:40:55,906][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:40:55,911][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:40:55,911][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:40:55,912][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:40:55,916][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:40:55,916][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:40:55,917][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:40:55,919][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:40:55,920][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:40:55,920][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:40:55,923][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:40:55,923][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:40:55,923][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:40:55,928][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:40:55,928][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:40:55,928][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:40:55,931][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:40:55,932][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:40:55,933][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:40:55,935][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:40:55,935][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:40:55,936][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:40:55,938][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:40:55,938][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:40:55,939][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:40:55,944][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:40:55,944][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:40:55,944][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:40:55,946][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:40:55,948][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:40:55,949][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:40:55,952][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:40:55,953][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:40:55,953][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:40:55,959][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:40:55,959][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:40:55,960][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:40:55,963][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:40:55,964][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:40:55,964][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:40:55,969][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:40:55,970][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:40:55,970][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:40:55,974][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:40:55,975][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:40:55,975][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:40:55,981][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:40:55,982][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:40:55,982][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:40:55,985][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:40:55,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:40:55,986][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:40:55,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:40:55,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:40:55,991][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:40:55,993][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:40:55,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:40:55,994][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:40:55,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:40:55,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:40:55,997][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:40:55,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:40:55,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:40:55,999][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:40:56,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:40:56,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:40:56,002][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:40:56,004][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:40:56,004][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:40:56,018][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:40:56,111][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:40:56,123][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:40:56,127][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:41:02,308][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=2222
+[2017-10-20 10:41:02,310][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=2222]
+[2017-10-20 10:41:25,159][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Core.dll
+[2017-10-20 10:41:25,178][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Core查找到资源文件：
+[2017-10-20 10:41:25,178][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Core.sqlMap.config未找到
+[2017-10-20 10:41:25,179][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.DynamicProxy2.dll
+[2017-10-20 10:41:25,181][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.DynamicProxy2查找到资源文件：
+[2017-10-20 10:41:25,181][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.DynamicProxy2.sqlMap.config未找到
+[2017-10-20 10:41:25,181][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.log4netIntegration.dll
+[2017-10-20 10:41:25,182][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.log4netIntegration查找到资源文件：
+[2017-10-20 10:41:25,182][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.log4netIntegration.sqlMap.config未找到
+[2017-10-20 10:41:25,182][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Castle.Services.Logging.NLogIntegration.dll
+[2017-10-20 10:41:25,184][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Castle.Services.Logging.NLogIntegration查找到资源文件：
+[2017-10-20 10:41:25,184][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Castle.Services.Logging.NLogIntegration.sqlMap.config未找到
+[2017-10-20 10:41:25,184][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CommonFramework.dll
+[2017-10-20 10:41:25,185][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CommonFramework查找到资源文件：
+[2017-10-20 10:41:25,185][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CommonFramework.sqlMap.config未找到
+[2017-10-20 10:41:25,186][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\CT.Common.dll
+[2017-10-20 10:41:25,187][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- CT.Common查找到资源文件：CT.Common.Maps.StationMapper.xml
+[2017-10-20 10:41:25,187][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- CT.Common.sqlMap.config未找到
+[2017-10-20 10:41:25,187][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Business.dll
+[2017-10-20 10:41:25,188][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Business查找到资源文件：DemoProject.Business.Maps.DemoMapper.xml
+[2017-10-20 10:41:25,188][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Business.sqlMap.config未找到
+[2017-10-20 10:41:25,189][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Model.dll
+[2017-10-20 10:41:25,190][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Model查找到资源文件：
+[2017-10-20 10:41:25,190][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Model.sqlMap.config未找到
+[2017-10-20 10:41:25,191][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\DemoProject.Web.dll
+[2017-10-20 10:41:25,192][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- DemoProject.Web查找到资源文件：
+[2017-10-20 10:41:25,192][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- DemoProject.Web.sqlMap.config未找到
+[2017-10-20 10:41:25,192][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.dll
+[2017-10-20 10:41:25,193][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common查找到资源文件：
+[2017-10-20 10:41:25,194][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.sqlMap.config未找到
+[2017-10-20 10:41:25,194][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.Common.Logging.Log4Net.dll
+[2017-10-20 10:41:25,195][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net查找到资源文件：
+[2017-10-20 10:41:25,195][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.Common.Logging.Log4Net.sqlMap.config未找到
+[2017-10-20 10:41:25,195][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\IBatisNet.DataMapper.dll
+[2017-10-20 10:41:25,196][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- IBatisNet.DataMapper查找到资源文件：
+[2017-10-20 10:41:25,197][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- IBatisNet.DataMapper.sqlMap.config未找到
+[2017-10-20 10:41:25,197][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\log4net.dll
+[2017-10-20 10:41:25,198][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- log4net查找到资源文件：
+[2017-10-20 10:41:25,199][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- log4net.sqlMap.config未找到
+[2017-10-20 10:41:25,199][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\MySql.Data.dll
+[2017-10-20 10:41:25,201][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- MySql.Data查找到资源文件：
+[2017-10-20 10:41:25,202][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- MySql.Data.sqlMap.config未找到
+[2017-10-20 10:41:25,202][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\Newtonsoft.Json.dll
+[2017-10-20 10:41:25,204][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- Newtonsoft.Json查找到资源文件：
+[2017-10-20 10:41:25,204][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- Newtonsoft.Json.sqlMap.config未找到
+[2017-10-20 10:41:25,204][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\NLog.dll
+[2017-10-20 10:41:25,206][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- NLog查找到资源文件：
+[2017-10-20 10:41:25,207][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- NLog.sqlMap.config未找到
+[2017-10-20 10:41:25,207][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Common.dll
+[2017-10-20 10:41:25,209][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Common查找到资源文件：
+[2017-10-20 10:41:25,209][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Common.sqlMap.config未找到
+[2017-10-20 10:41:25,209][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Interfaces.dll
+[2017-10-20 10:41:25,211][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Interfaces查找到资源文件：
+[2017-10-20 10:41:25,211][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Interfaces.sqlMap.config未找到
+[2017-10-20 10:41:25,211][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.dll
+[2017-10-20 10:41:25,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite查找到资源文件：
+[2017-10-20 10:41:25,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.sqlMap.config未找到
+[2017-10-20 10:41:25,214][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.OrmLite.MySql.dll
+[2017-10-20 10:41:25,215][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.OrmLite.MySql查找到资源文件：
+[2017-10-20 10:41:25,215][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.OrmLite.MySql.sqlMap.config未找到
+[2017-10-20 10:41:25,216][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\ServiceStack.Text.dll
+[2017-10-20 10:41:25,218][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- ServiceStack.Text查找到资源文件：
+[2017-10-20 10:41:25,219][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- ServiceStack.Text.sqlMap.config未找到
+[2017-10-20 10:41:25,219][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Net.Http.Formatting.dll
+[2017-10-20 10:41:25,221][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Net.Http.Formatting查找到资源文件：
+[2017-10-20 10:41:25,221][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Net.Http.Formatting.sqlMap.config未找到
+[2017-10-20 10:41:25,221][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.dll
+[2017-10-20 10:41:25,225][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http查找到资源文件：
+[2017-10-20 10:41:25,225][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.sqlMap.config未找到
+[2017-10-20 10:41:25,226][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- 扫描文件：C:\Users\libin\Desktop\DemoProject\DemoProject.Web\bin\System.Web.Http.WebHost.dll
+[2017-10-20 10:41:25,228][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][DynamicScanSqlMapsNode]-- System.Web.Http.WebHost查找到资源文件：
+[2017-10-20 10:41:25,229][thdId:1]-[DEBUG]-[CommonFramework.IBatisNet.SqlMaperBuild][AttachSqlMapsNode]-- System.Web.Http.WebHost.sqlMap.config未找到
+[2017-10-20 10:41:25,244][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-20 10:41:25,318][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [_getSystemTime] Prepared SQL: [select now();]
+[2017-10-20 10:41:25,331][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectStationByAccessId] Prepared SQL: [select        h_station.*        from        h_station        where h_station.AccessKeyId= @param0         limit 1]
+[2017-10-20 10:41:25,335][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-20 10:41:36,568][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List
+[2017-10-20 10:41:36,571][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=]
+[2017-10-20 10:41:36,604][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test]
+[2017-10-20 10:41:36,609][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test]
+[2017-10-20 10:41:36,749][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "20726372" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:41:36,760][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "20726372" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:41:45,763][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=33333
+[2017-10-20 10:41:45,764][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=33333]
+[2017-10-20 10:41:52,239][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List
+[2017-10-20 10:41:52,240][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=]
+[2017-10-20 10:41:52,241][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test]
+[2017-10-20 10:41:52,244][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test]
+[2017-10-20 10:41:52,247][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "57784236" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:41:52,251][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "57784236" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:41:56,179][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Add?name=33333
+[2017-10-20 10:41:56,181][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=33333]
+[2017-10-20 10:41:57,523][thdId:10]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List
+[2017-10-20 10:41:57,523][thdId:10]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=]
+[2017-10-20 10:41:57,524][thdId:10]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test]
+[2017-10-20 10:41:57,526][thdId:10]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test]
+[2017-10-20 10:41:57,528][thdId:10]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "45653674" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:41:57,530][thdId:10]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "45653674" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:42:05,457][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/Update?name=44444&id=4
+[2017-10-20 10:42:05,458][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [id=4]
+[2017-10-20 10:42:05,461][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=44444]
+[2017-10-20 10:42:07,100][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- url=http://localhost:63795/Demo/List
+[2017-10-20 10:42:07,101][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.RequestLoggerFilter][OnActionExecuting]-- [name=]
+[2017-10-20 10:42:07,101][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [selectTestStatement] Prepared SQL: [select * from Test]
+[2017-10-20 10:42:07,102][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.Commands.DefaultPreparedCommand][Create]-- Statement Id: [selectTestStatement] PreparedStatement : [select * from Test]
+[2017-10-20 10:42:07,103][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][OpenConnection]-- Open Connection "43954668" to "MySQL, MySQL provider V6.9.9.0".
+[2017-10-20 10:42:07,105][thdId:5]-[DEBUG]-[IBatisNet.DataMapper.SqlMapSession][CloseConnection]-- Close Connection "43954668" to "MySQL, MySQL provider V6.9.9.0".

@@ -1,0 +1,31 @@
+﻿using CommonFramework.IBatisNet;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Business.Process
+{
+    public class ChoresMapper : BaseMapper
+    {
+        /// <summary>
+        /// 获取当前站点下所有部门 by SZF
+        /// </summary>
+        /// <returns></returns>
+        public IList GetDemptments(int System_Station_ID)
+        {
+            return QueryForList("GetDemptments", new { System_Station_ID });
+        }
+
+        /// <summary>
+        /// 获取当前站点下所有部门 by SZF
+        /// </summary>
+        /// <returns></returns>
+        public IList GetAccount(int System_Station_ID)
+        {
+            return QueryForList("GetAccount", new { System_Station_ID });
+        }
+    }
+}

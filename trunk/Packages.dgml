@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="ApprovalProject.Business" Label="ApprovalProject.Business" Category="项目" />
+    <Node Id="Castle.Core 1.2.0" Label="Castle.Core 1.2.0" Category="包" />
+    <Node Id="Castle.DynamicProxy 2.2.0" Label="Castle.DynamicProxy 2.2.0" Category="包" />
+    <Node Id="CommonFramework 1.1.6527.18119" Label="CommonFramework 1.1.6527.18119" Category="包" />
+    <Node Id="CT.Common 1.1.6527.18120" Label="CT.Common 1.1.6527.18120" Category="包" />
+    <Node Id="IBatisNet 1.7.6527.17949" Label="IBatisNet 1.7.6527.17949" Category="包" />
+    <Node Id="log4net 2.0.8" Label="log4net 2.0.8" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi.Client 5.2.3" Label="Microsoft.AspNet.WebApi.Client 5.2.3" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi.Core 5.2.3" Label="Microsoft.AspNet.WebApi.Core 5.2.3" Category="包" />
+    <Node Id="MySql.Data 6.9.9" Label="MySql.Data 6.9.9" Category="包" />
+    <Node Id="Newtonsoft.Json 10.0.3" Label="Newtonsoft.Json 10.0.3" Category="包" />
+    <Node Id="NLog 1.0.0.505" Label="NLog 1.0.0.505" Category="包" />
+    <Node Id="ServiceStack.Common 4.5.14" Label="ServiceStack.Common 4.5.14" Category="包" />
+    <Node Id="ServiceStack.Interfaces 4.5.14" Label="ServiceStack.Interfaces 4.5.14" Category="包" />
+    <Node Id="ServiceStack.OrmLite 4.5.14" Label="ServiceStack.OrmLite 4.5.14" Category="包" />
+    <Node Id="ServiceStack.OrmLite.MySql 4.5.14" Label="ServiceStack.OrmLite.MySql 4.5.14" Category="包" />
+    <Node Id="ServiceStack.Text 4.5.14" Label="ServiceStack.Text 4.5.14" Category="包" />
+    <Node Id="System.Net.Http 4.3.3" Label="System.Net.Http 4.3.3" Category="包" />
+    <Node Id="ApprovalProject.Model" Label="ApprovalProject.Model" Category="项目" />
+    <Node Id="orm 1.0.0" Label="orm 1.0.0" Category="包" />
+    <Node Id="ApprovalProject.Web" Label="ApprovalProject.Web" Category="项目" />
+    <Node Id="Castle.Core 1.2.0" Label="Castle.Core 1.2.0" Category="包" />
+    <Node Id="Castle.DynamicProxy 2.2.0" Label="Castle.DynamicProxy 2.2.0" Category="包" />
+    <Node Id="CommonFramework 1.1.6527.18119" Label="CommonFramework 1.1.6527.18119" Category="包" />
+    <Node Id="CT.Common 1.1.6527.18120" Label="CT.Common 1.1.6527.18120" Category="包" />
+    <Node Id="IBatisNet 1.7.6527.17949" Label="IBatisNet 1.7.6527.17949" Category="包" />
+    <Node Id="log4net 2.0.8" Label="log4net 2.0.8" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi 5.2.3" Label="Microsoft.AspNet.WebApi 5.2.3" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi.Client 5.2.3" Label="Microsoft.AspNet.WebApi.Client 5.2.3" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi.Core 5.2.3" Label="Microsoft.AspNet.WebApi.Core 5.2.3" Category="包" />
+    <Node Id="Microsoft.AspNet.WebApi.WebHost 5.2.3" Label="Microsoft.AspNet.WebApi.WebHost 5.2.3" Category="包" />
+    <Node Id="MySql.Data 6.9.9" Label="MySql.Data 6.9.9" Category="包" />
+    <Node Id="Newtonsoft.Json 10.0.3" Label="Newtonsoft.Json 10.0.3" Category="包" />
+    <Node Id="NLog 1.0.0.505" Label="NLog 1.0.0.505" Category="包" />
+    <Node Id="ServiceStack.Common 4.5.14" Label="ServiceStack.Common 4.5.14" Category="包" />
+    <Node Id="ServiceStack.Interfaces 4.5.14" Label="ServiceStack.Interfaces 4.5.14" Category="包" />
+    <Node Id="ServiceStack.OrmLite 4.5.14" Label="ServiceStack.OrmLite 4.5.14" Category="包" />
+    <Node Id="ServiceStack.OrmLite.MySql 4.5.14" Label="ServiceStack.OrmLite.MySql 4.5.14" Category="包" />
+    <Node Id="ServiceStack.Text 4.5.14" Label="ServiceStack.Text 4.5.14" Category="包" />
+    <Node Id="System.Net.Http 4.3.3" Label="System.Net.Http 4.3.3" Category="包" />
+  </Nodes>
+  <Links>
+    <Link Source="Castle.Core 1.2.0" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="Castle.Core 1.2.0" Target="NLog 1.0.0.505" Category="程序包依赖项" />
+    <Link Source="Castle.DynamicProxy 2.2.0" Target="Castle.Core 1.2.0" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="IBatisNet 1.7.6527.17949" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="ServiceStack.OrmLite.MySql 4.5.14" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="System.Net.Http 4.3.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="System.Net.Http 4.3.3" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="Castle.DynamicProxy 2.2.0" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="Castle.Core 1.2.0" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Core 5.2.3" Target="Microsoft.AspNet.WebApi.Client 5.2.3" Category="程序包依赖项" />
+    <Link Source="ServiceStack.Common 4.5.14" Target="ServiceStack.Interfaces 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.Common 4.5.14" Target="ServiceStack.Text 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite 4.5.14" Target="ServiceStack.Common 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite.MySql 4.5.14" Target="MySql.Data 6.9.9" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite.MySql 4.5.14" Target="ServiceStack.OrmLite 4.5.14" Category="程序包依赖项" />
+    <Link Source="ApprovalProject.Business" Target="CommonFramework 1.1.6527.18119" Category="安装的程序包" />
+    <Link Source="ApprovalProject.Business" Target="CT.Common 1.1.6527.18120" Category="安装的程序包" />
+    <Link Source="ApprovalProject.Model" Target="orm 1.0.0" Category="安装的程序包" />
+    <Link Source="Castle.Core 1.2.0" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="Castle.Core 1.2.0" Target="NLog 1.0.0.505" Category="程序包依赖项" />
+    <Link Source="Castle.DynamicProxy 2.2.0" Target="Castle.Core 1.2.0" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="IBatisNet 1.7.6527.17949" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="ServiceStack.OrmLite.MySql 4.5.14" Category="程序包依赖项" />
+    <Link Source="CommonFramework 1.1.6527.18119" Target="System.Net.Http 4.3.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="CT.Common 1.1.6527.18120" Target="System.Net.Http 4.3.3" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="Castle.DynamicProxy 2.2.0" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="Castle.Core 1.2.0" Category="程序包依赖项" />
+    <Link Source="IBatisNet 1.7.6527.17949" Target="log4net 2.0.8" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi 5.2.3" Target="Microsoft.AspNet.WebApi.WebHost 5.2.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 5.2.3" Target="Newtonsoft.Json 10.0.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.Core 5.2.3" Target="Microsoft.AspNet.WebApi.Client 5.2.3" Category="程序包依赖项" />
+    <Link Source="Microsoft.AspNet.WebApi.WebHost 5.2.3" Target="Microsoft.AspNet.WebApi.Core 5.2.3" Category="程序包依赖项" />
+    <Link Source="ServiceStack.Common 4.5.14" Target="ServiceStack.Interfaces 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.Common 4.5.14" Target="ServiceStack.Text 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite 4.5.14" Target="ServiceStack.Common 4.5.14" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite.MySql 4.5.14" Target="MySql.Data 6.9.9" Category="程序包依赖项" />
+    <Link Source="ServiceStack.OrmLite.MySql 4.5.14" Target="ServiceStack.OrmLite 4.5.14" Category="程序包依赖项" />
+    <Link Source="ApprovalProject.Web" Target="CommonFramework 1.1.6527.18119" Category="安装的程序包" />
+    <Link Source="ApprovalProject.Web" Target="CT.Common 1.1.6527.18120" Category="安装的程序包" />
+    <Link Source="ApprovalProject.Web" Target="Microsoft.AspNet.WebApi 5.2.3" Category="安装的程序包" />
+  </Links>
+  <Categories>
+    <Category Id="项目" />
+    <Category Id="包" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="项目" ValueLabel="True">
+      <Condition Expression="HasCategory('项目')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="程序包依赖项" ValueLabel="True">
+      <Condition Expression="HasCategory('程序包依赖项')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

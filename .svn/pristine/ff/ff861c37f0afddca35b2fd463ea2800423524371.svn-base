@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using CommonFramework;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet.SqlMap;
+using CommonFramework.Mvc;
+using CommonFramework.Mvc.Attribute;
+using CT.Common.Mvc;
+using ApprovalProject.Business;
+using ApprovalProject.Model;
+using ApprovalProject.Model.ViewModel;
+
+namespace ApprovalProject.Web.Controller
+{
+    public class ApprovalController : StationBaseApiController
+    {
+        ApprovalMapper mapper = new ApprovalMapper();
+
+        /// <summary>
+        /// 添加审批模板
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic AddApprovalTemplet(ApprovalTemplet templet)
+        {
+            return Success(mapper.AddApprovalTemplet(templet, this.System_Station_ID, this.AccountID)?"操作成功":"操作失败");
+        }
+
+        /// <summary>
+        /// 添加条件审批
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic AddApprovalType(ApprovalTypeModel templet)
+        {
+            return Success(mapper.AddApprovalType(templet,this.System_Station_ID,this.AccountID)?"操作成功":"操作失败");
+        }
+    }
+}

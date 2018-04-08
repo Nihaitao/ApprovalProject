@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet;
+using ApprovalProject.Model;
+using ServiceStack.OrmLite;
+
+namespace ApprovalProject.Business
+{
+    public class TestMapper : BaseMapper
+    {
+        /// <summary>
+        /// 这里是一个查询的方法，查询的结果可以直接通过webapi的方式输出，不用为查询的结果建立实体
+        /// QueryForList中的selectTestStatement为当前程序集Maps下DemoMapper.xml文件（注意DemoMapper.xml文件的属性，生成操作类型为《嵌入的资源》）
+        /// 当在Global中配置数据CommonFramework.IBatisNet.BaseMapper.Configure(),将会自动扫描所有程序集下的Maps内的嵌入资源，注意资源内的文件格式，如果格式错误，初始化将会异常
+        /// 
+        /// 第二个参数为执行传入的参数，改参数支持多种类型，详细查看IBatisNet文档
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public IList selectTest(string name)
+        {
+            return QueryForList("selectTestStatement", new {name = name});
+        }
+
+        public int Add(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ApiException("姓名不能为空");
+                //当出现异常后，可以直接抛ApiException，拦截器将会拦截异常，并格式化输出
+            }
+           
+            using (var session = OpenOrmSession()) //使用using 数据库自动释放
+            {
+               
+                var id = session.Insert(new Test()
+                {
+                    Name = name
+                }, true); //ORM的添加方法,这里只是一个简单的示例，详细参照ServiceStack.OrmLite文档
+                return (int) id;
+            }
+        }
+
+        public void Update(Test test)
+        {
+            if (test == null)
+            {
+                throw new ApiException("对象错误");
+                //当出现异常后，可以直接抛ApiException，拦截器将会拦截异常，并格式化输出
+            }
+            using (var session = OpenOrmSession()) //使用using 数据库自动释放
+            {
+                session.Update(test); //同样是一个简单的例子
+            }
+        }
+
+        public Test GetTestById(int id)
+        {
+            using (var session = OpenOrmSession()) //使用using 数据库自动释放
+            {
+                return session.Select<Test>(x => x.Id == id).FirstOrDefault();
+            }
+        }
+    }
+}

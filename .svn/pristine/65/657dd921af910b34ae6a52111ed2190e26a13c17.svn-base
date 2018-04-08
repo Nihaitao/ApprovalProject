@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<sqlMap namespace="ProcessStage" xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="getAllProcess" resultClass="map" parameterClass="map">
+      select * from Test
+      <dynamic prepend="where">
+        <isNotEmpty prepend="and" property="name">
+          `name`=#name#
+        </isNotEmpty>
+        <isNotNull  property="id">
+          <isNotEmpty prepend="and" property="id">
+            `name`=#id#
+          </isNotEmpty>
+        </isNotNull>
+      </dynamic>
+    </select>
+
+    <select id="GetApprovallistccTotalCount" resultClass="int" parameterClass="map">
+      select count(1) from sp_approvallistcc a
+      <include refid ="GetApprovallist_Fragment"></include>
+    </select>
+    <select id="GetApprovallistcc" resultClass="ApprovalProject.Model.ViewModel.Sp_ApprovallistModel" parameterClass="map">
+      select b.*,h.`Name` as AddPersonName,t.Name as ApprovalTypeName from sp_approvallistcc a
+      <include refid ="GetApprovallist_Fragment"></include>
+    </select>
+
+    <select id="GetApprovalprocessTotalCount" resultClass="int" parameterClass="map">
+      select count(DISTINCT a.ID)
+      <include refid ="GetApprovalprocess_Fragment"></include>
+    </select>
+    <select id="GetApprovalprocess" resultClass="ApprovalProject.Model.ViewModel.Sp_ApprovallistModel" parameterClass="map">
+      select DISTINCT a.*,h.`Name`as AddPersonName,t.Name as ApprovalTypeName,
+      (case when b.AccID = #AccID# then (select min(operationStatus) from sp_approvalprocess where ApprovalList_ID = a.ID and AccID = #AccID#) else
+      (select min(operationStatus) from sp_approvaltransfer where ApprovalList_ID = a.ID and AccID = #AccID#) end) operationStatus
+      <include refid ="GetApprovalprocess_Fragment"></include>
+    </select>
+      
+    <sql id="GetApprovalprocess_Fragment">
+      from sp_approvallist a
+      LEFT JOIN sp_approvalprocess b on b.ApprovalList_ID = a.ID
+      LEFT JOIN sp_approvaltransfer f on a.ID=f.ApprovalList_ID
+      LEFT JOIN h_station_account h on h.Account_ID=a.AddPerson
+      LEFT JOIN sp_approvaltype t on a.ApprovalType_ID=t.ID
+      LEFT JOIN h_station_account_department d on a.AddPerson = d.Account_ID
+      where  (b.AccId = #AccID# or f.AccId =#AccID# ) and a.System_Station_ID = #System_Station_ID#
+      <isNotEmpty prepend="and" property="StartTime">
+        <![CDATA[a.AddTime >= #StartTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="EndTime">
+        <![CDATA[a.AddTime < date_sub(#EndTime#,interval -1 day) ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="-1" prepend="and" property="ApprovalStatus">
+        ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalType_ID">
+        ApprovalType_ID=#ApprovalType_ID#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="AddPerson">
+        a.AddPerson=#AddPerson#
+      </isGreaterThan>
+      <isEqual compareValue="0"  property="AddPerson">
+        <isGreaterThan compareValue="0" prepend="and" property="DeptermentID">
+          FIND_IN_SET(d.Department_ID,GetChildList(#DeptermentID#,'h_department'))
+        </isGreaterThan>
+      </isEqual>
+      order by a.ApprovalStatus asc,a.AddTime desc
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+    <select id="GetApprovalprocessforPhoneCount" resultClass="int" parameterClass="map">
+      SELECT count(1) from (select DISTINCT a.*,h.`Name`as AddPersonName,t.Name as ApprovalTypeName,
+      (case when b.AccID = #AccID# then (select min(operationStatus) from sp_approvalprocess where ApprovalList_ID = a.ID and AccID = #AccID#) else
+      (select min(operationStatus) from sp_approvaltransfer where ApprovalList_ID = a.ID and AccID = #AccID#) end) operationStatus
+      <include refid ="GetApprovalprocessforPhone_Fragment"></include>
+    </select>
+    <select id="GetApprovalprocessforPhone" resultClass="ApprovalProject.Model.ViewModel.Sp_ApprovallistModel" parameterClass="map">
+      SELECT * from (select DISTINCT a.*,h.`Name`as AddPersonName,t.Name as ApprovalTypeName,
+      (case when b.AccID = #AccId# then (select min(operationStatus) from sp_approvalprocess where ApprovalList_ID = a.ID and AccID = #AccId#) else
+      (select min(operationStatus) from sp_approvaltransfer where ApprovalList_ID = a.ID and AccID = #AccId#) end) operationStatus
+   
+      <include refid ="GetApprovalprocessforPhone_Fragment"></include>
+    </select>
+
+    <sql id="GetApprovalprocessforPhone_Fragment">
+     from sp_approvallist a
+      LEFT JOIN sp_approvalprocess b on b.ApprovalList_ID = a.ID
+      LEFT JOIN sp_approvaltransfer f on a.ID=f.ApprovalList_ID
+      LEFT JOIN h_station_account h on h.Account_ID=a.AddPerson
+      LEFT JOIN sp_approvaltype t on a.ApprovalType_ID=t.ID
+      LEFT JOIN h_station_account_department d on a.AddPerson = d.Account_ID
+      where  (b.AccId = #AccId# or f.AccId =#AccId# ) and a.System_Station_ID = #System_Station_ID#
+      order by a.ApprovalStatus asc,a.AddTime desc
+      ) Q where  1=1
+      <isEqual compareValue="0"  prepend="and" property="operationStatus">
+        Q.operationStatus=0
+      </isEqual>
+      <isNotEqual compareValue="0"  prepend="and" property="operationStatus">
+        Q.operationStatus!=0
+      </isNotEqual>
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+    
+    
+
+
+    <sql id="GetApprovallist_Fragment">
+      join sp_approvallist b on a.ApprovalList_ID = b.ID
+      LEFT JOIN h_station_account h on h.Account_ID=b.AddPerson
+      LEFT JOIN sp_approvaltype t on b.ApprovalType_ID=t.ID
+      where a.AccID = #AccID# and b.ID in
+      (
+      select ID from sp_approvallist where System_Station_ID = #System_Station_ID#
+      <isNotEmpty prepend="and" property="StartTime">
+        <![CDATA[AddTime >= #StartTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="EndTime">
+        <![CDATA[AddTime < date_sub(#EndTime#,interval -1 day) ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="0" prepend="and" property="AddPerson">
+        AddPerson=#AddPerson#
+      </isGreaterThan>
+      <isEqual compareValue="0"  property="AddPerson">
+        <isGreaterThan compareValue="0" prepend="and" property="DeptermentID">
+          AddPerson in (select Account_ID from h_station_account_department where FIND_IN_SET(Department_ID,GetChildList(#DeptermentID#,'h_department')))
+        </isGreaterThan>
+      </isEqual>
+      <isGreaterThan compareValue="-1" prepend="and" property="ApprovalStatus">
+        ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalType_ID">
+        ApprovalType_ID=#ApprovalType_ID#
+      </isGreaterThan>
+      )
+      order by b.ApprovalStatus asc,b.AddTime desc
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+
+    <select id="GetApprovallistTotalCount" resultClass="int" parameterClass="map">
+      select count(1)
+      <include refid ="GetApprovallist2_Fragment"></include>
+    </select>
+    <select id="GetApprovallist" resultClass="ApprovalProject.Model.ViewModel.Sp_ApprovallistModel" parameterClass="map">
+      SELECT b.*,h.`Name`as AddPersonName,t.Name as ApprovalTypeName
+      <include refid ="GetApprovallist2_Fragment"></include>
+    </select>
+    <sql id="GetApprovallist2_Fragment">
+      from sp_approvallist b
+      LEFT JOIN h_station_account h on h.Account_ID=b.AddPerson
+      LEFT JOIN sp_approvaltype t on b.ApprovalType_ID=t.ID
+      where  b.AddPerson=#AddPerson#  and b.System_Station_ID = #System_Station_ID#
+      <isNotEmpty prepend="and" property="StartTime">
+        <![CDATA[b.AddTime >= #StartTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="EndTime">
+        <![CDATA[b.AddTime <date_sub(#EndTime#,interval -1 day)  ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="-1" prepend="and" property="ApprovalStatus">
+        b.ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalType_ID">
+        b.ApprovalType_ID=#ApprovalType_ID#
+      </isGreaterThan>
+      order by b.ApprovalStatus asc,b.AddTime desc
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+    <select id="GetApprovalTemplet" resultClass="map" parameterClass="map">
+      SELECT
+      a.*,(SELECT `Name` from h_station_account where Account_ID=a.AddPersion) as AddPersonName
+      FROM
+      sp_approvaltype a
+      where a.System_Station_ID=#System_Station_ID# and a.IsDelete=0
+      order by  a.Enditable desc,a.AddTime desc
+    </select>
+
+    <select id="GetSelectApproval" resultClass="map" parameterClass="map">
+      SELECT a.*,t.`Name` as Title,s.`Name` as AddPersonName,c.ShowName,v.`Value`,c.FieldType from sp_approvallist a
+      LEFT join sp_approvaltype t on a.ApprovalType_ID=t.ID
+      LEFT JOIN h_station_account s on a.AddPerson=s.Account_ID
+      LEFT JOIN h_customfield c on a.ApprovalType_ID=SUBSTRING(c.BusType,10)
+      LEFT JOIN h_customfield_value v on c.FieldName=v.FieldName
+      where a.ID=#ApprovalType_ID#
+    </select>
+
+    <select id="GetApprovalField" resultClass="ApprovalProject.Model.ViewModel.ApprovalFieldModel" parameterClass="map">
+      SELECT ID,Name,DataSource,FieldType from h_customfield  where BusType=#BusType# and FieldType in(103,104,106,110) and PID=0 and System_Station_ID=#System_Station_ID#
+    </select>
+
+    <select id="GetAllAcoount" resultClass="map" parameterClass="map">
+      SELECT
+      t.Account_ID,
+      t.System_Station_ID,
+      t.`Name`,
+      s.Phone,
+      s.CardNumber,
+      t.AddTime,
+      t.Valid,
+      t.IsAdministrator,
+      t.Stationproxy_ID,
+      z.LoginTime,
+      z.LoginCount,
+      y.Departments
+      FROM
+      h_station_account AS t
+      LEFT JOIN
+      (SELECT Account_ID,MAX(LoginTime) LoginTime,COUNT(Account_ID) LoginCount
+      FROM h_station_account_logindetail GROUP BY Account_ID ORDER BY Account_ID ASC  ) z ON t.Account_ID=z.Account_ID
+      LEFT JOIN (
+      SELECT
+      n.Account_ID,
+      GROUP_CONCAT(n.Department_ID, ':', n.IsManager) AS Departments
+      FROM
+      (SELECT Account_ID,Department_ID,IsMain,IsManager FROM h_station_account_department ORDER BY IsMain desc) n
+      GROUP BY n.Account_ID
+      ) y ON t.Account_ID=y.Account_ID
+      LEFT JOIN h_account s ON t.AccountID=s.ID
+      WHERE 1=1  AND t.IsDelete=0 and t.System_Station_ID=#System_Station_ID#
+    </select>
+
+    <update id="EnditableApprovalTemplet"  parameterClass="map">
+      update Sp_Approvaltype set Enditable = #Enditable# where ID = #ID#;
+    </update>
+
+
+    <update id="DeleteApprovalTemplet"  parameterClass="map">
+      update Sp_Approvaltype set IsDelete = 1 where ID = #ID#;
+    </update>
+
+    <select id="GetInitiateApplicationList" resultClass="map" parameterClass="map">
+      SELECT	* FROM	sp_approvaltype
+      WHERE	ID IN (
+      SELECT ApprovalType_ID FROM	sp_approvalvisrange	WHERE	(TypeID = #AccountID# and Type = 1)
+      OR (Type = 0 and FIND_IN_SET(TypeID,(SELECT group_concat(getParentList (Department_ID)) FROM	h_station_account_department WHERE Account_ID = #AccountID# AND System_Station_ID = #System_Station_ID#))
+      ) OR (Type = 2 and TypeID = #System_Station_ID#))
+      AND System_Station_ID = #System_Station_ID# AND IsDelete = 0 AND Enditable = 1
+    </select>
+
+    <select id="GetApplicationCustomfield" resultClass="ApprovalProject.Model.ViewModel.Customfield" parameterClass="map">
+      SELECT * from h_customfield where BusType=#approvalID# and IsDelete=0 order by SortID
+    </select>
+    <select id="GetApplicationCondition" resultClass="ApprovalProject.Model.ViewModel.ApprovalCondition" parameterClass="map">
+      SELECT *,AccIds as AccId,DeptIds as DeptId from sp_approvalcondition where ApprovalType_ID=#approvalTypeID# order by Priority
+    </select>
+    <select id="GetDepartment" resultClass="ApprovalProject.Model.ViewModel.Department" parameterClass="map">
+      select a.*,b.Name as AccountName from h_station_account_department a left join h_station_account b on b.Account_ID = a.Account_ID where a.System_Station_ID = #System_Station_ID#;
+    </select>
+    <select id="GetApprovalConditionObject" resultClass="ApprovalProject.Model.ViewModel.ApprovalConditionObject" parameterClass="map">
+      SELECT a.*,b.Name as AccName from sp_conditionapproveobject a left join h_station_account b on b.Account_ID = a.AccId order by a.ApprovalCondition_ID,a.Priority
+    </select>
+    <select id="GetApprovalConditionCC" resultClass="ApprovalProject.Model.ViewModel.ApprovalConditionObject" parameterClass="map">
+      SELECT a.*,b.Name as AccName from sp_approvalcc a left join h_station_account b on b.Account_ID = a.AccId
+    </select>
+    <select id="GetUpDeparts" resultClass="String" parameterClass="map">
+      select getParentList(Department_ID) FROM h_station_account_department where Account_ID = #accountId# and IsMain = 1 and System_Station_ID = #System_Station_ID#;
+    </select>
+
+
+
+    <select id="GetApprovalInfoModel" resultClass="ApprovalProject.Model.ViewModel.ApprovalInfoModel" parameterClass="map">
+      SELECT  a.ApprovalType_ID as ID, concat(s.`Name`,'的',t.`Name`) as Title,ApprovalStatus,ApprovalContent
+      FROM sp_approvallist a
+      LEFT JOIN sp_approvaltype t ON a.ApprovalType_ID = t.ID
+      LEFT JOIN h_station_account s ON a.AddPerson = s.Account_ID
+      WHERE a.ID =#ApprovalListID#
+    </select>
+
+
+    <select id="GetApprovalFieldList" resultClass="ApprovalProject.Model.ViewModel.FieldShowModel" parameterClass="map">
+      SELECT a.ID FieldID,a.PID,a.`Name` ShowName,b.`Value` ShowValue  from h_customfield a
+      join h_customfield_value b on a.FieldName = b.FieldName
+      where a.BusType = concat('approval_',#ID#) and b.BusType = 100 and b.BusID = #ApprovalListID#
+      order by a.SortID,b.ID
+    </select>
+    <select id="GetApprovalProcessList" resultClass="ApprovalProject.Model.ViewModel.ApprovalProcessModel" parameterClass="map">
+      select a.*,b.`Name` AccName from sp_approvalprocess a
+      LEFT JOIN h_station_account b on b.Account_ID=a.AccID where a.ApprovalList_ID = #ApprovalListID#
+      Order by Deepth;
+    </select>
+    <select id="GetApprovalTransferListList" resultClass="ApprovalProject.Model.ViewModel.ApprovalProcessModel" parameterClass="map">
+      select a.*,b.`Name` AccName from sp_approvaltransfer a
+      LEFT JOIN h_station_account b on b.Account_ID=a.AccID where a.ApprovalList_ID = #ApprovalListID#;
+    </select>
+
+
+    <select id="GetApprovalprocessModel" resultClass="ApprovalProject.Model.Sp_Approvalprocess"  parameterClass="map">
+      SELECT a.ID,a.ApprovalList_ID,a.CounterSign,a.Deepth,a.ApprovalTransfer_ID,
+      (case when b.AccID > 0 then b.AccID else a.AccID end) as AccID,
+      (case when b.AccID > 0 then b.Remark else a.Remark end) as Remark,
+      (case when b.AccID > 0 then b.operationTime else a.operationTime end) as operationTime,
+      (case when b.AccID > 0 then b.operationStatus else a.operationStatus end) as operationStatus
+      from sp_approvalprocess a
+      left join sp_approvaltransfer b on a.approvalTransfer_ID = b.ID
+      where a.approvallist_id=#ApprovalListID# and a.Deepth=#Deepth#
+    </select>
+
+    <select id="GetApprovaltransferModel" resultClass="ApprovalProject.Model.Sp_Approvaltransfer"  parameterClass="map">
+      SELECT * from Sp_Approvaltransfer where approvallist_id=#ApprovalListID#
+    </select>
+
+    <select id="GetProcessTransferModel" resultClass="ApprovalProject.Model.ViewModel.ProcessTransferModel"  parameterClass="map">
+      SELECT a.AccID,b.AccID AccID1 from sp_approvalprocess a left join  sp_approvaltransfer b on a.ApprovalTransfer_ID = b.ID
+      where a.ApprovalList_ID = #ApprovalListID# and a.Deepth = #Deepth#
+    </select>
+
+
+    <select id="GetApprovalVisrangeList" resultClass="ApprovalProject.Model.ViewModel.ApprovalVisrange"  parameterClass="map">
+      select a.ApprovalType_ID, a.Type as IsAccount,a.TypeID as DepartmentID,
+      (case a.Type when 1 then b.`Name` when 2 then  d.`Name` else c.`Name` end) as `Name`
+      from sp_approvalvisrange a
+      left join h_station_account b on b.Account_ID=a.TypeID
+      left join h_department c on c.ID = a.TypeID
+      left join h_station d on d.ID = a.TypeID
+      where a.ApprovalType_ID = #Approval_ID#
+    </select>
+
+
+    <select id="GetApprovalObjectList" resultClass="ApprovalProject.Model.ViewModel.ApprovalConditionObject"  parameterClass="map">
+      select a.*,b.`Name` AccName from sp_conditionapproveobject a
+      left join h_station_account b on a.AccId = b.Account_ID
+    </select>
+
+    <select id="GetApprovalCCList" resultClass="ApprovalProject.Model.ViewModel.ApprovalConditionObject"  parameterClass="map">
+      select a.*,b.`Name` AccName from sp_approvalcc a
+      left join h_station_account b on a.AccId = b.Account_ID
+    </select>
+    <select id="GetDepartmentInfoList" resultClass="ApprovalProject.Model.ViewModel.Department"  parameterClass="map">
+      select ID Department_ID,Name AccountName from h_department
+    </select>
+    <select id="GetAcountInfoList" resultClass="ApprovalProject.Model.ViewModel.Department"  parameterClass="map">
+      select Account_ID,Name AccountName  from h_station_account where System_Station_ID = #System_Station_ID#
+    </select>
+
+    <select id="GetCCPerson" resultClass="ApprovalProject.Model.ViewModel.ApprovalShow"  parameterClass="map">
+      SELECT GROUP_CONCAT(b.`Name`) as CCPerson from sp_approvallistcc a left join h_station_account b on a.AccID=b.Account_ID where ApprovalList_ID=#ApprovalListID#
+    </select>
+  </statements>
+</sqlMap>

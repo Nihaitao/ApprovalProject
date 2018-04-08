@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="simpleConf" type="SimpleConf.Client.Configuration.ClientConfConfigurationSection, SimpleConf.Client" />
+  </configSections>
+  <simpleConf tcpServer="121.196.224.25" tcpPort="2022" aliveInterval="10000" syncTimeOut="3000" receiveMaxSize="8192" />
+</configuration>

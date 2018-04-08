@@ -1,0 +1,67 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model.ViewModel
+{
+    /// <summary>
+    /// 审批流程规则对象
+    /// </summary>
+    public class ApprovalTypeModel
+    {
+        public int ApprovalType_ID { get; set; }
+        public List<ApprovalVisrange> Visrange { get; set; }
+        public List<ApprovalCondition> Condition { get; set; }
+    }
+    /// <summary>
+    /// 可见范围
+    /// </summary>
+    public class ApprovalVisrange 
+    {
+        public int ApprovalType_ID { get; set; }
+        public int Type { get; set; }
+        public int AccID { get; set; }
+        public int DeptID { get; set; }
+    }
+    /// <summary>
+    /// 条件审批
+    /// </summary>
+    public class ApprovalCondition
+    {
+        public int ApprovalType_ID { get; set; }
+        public int ConditionType { get; set; }
+        public int FieldId { get; set; }
+        public string ConditionOp { get; set; }
+        public string ContrastValue { get; set; }
+        public int DeptId { get; set; }
+        public int AccId { get; set; }
+        public int Priority { get; set; }
+        public List<ApprovalConditionObject> list { get; set; }
+        public List<ApprovalConditionCC> listCC { get; set; }
+    }
+
+    /// <summary>
+    /// 审批人
+    /// </summary>
+    public class ApprovalConditionObject
+    {
+        public int ApprovalCondition_ID { get; set; }
+        public int CounterSign { get; set; }
+        public int Type { get; set; }
+        public int AccId { get; set; }
+        public int Priority { get; set; }
+    }
+    /// <summary>
+    /// 抄送人
+    /// </summary>
+    public class ApprovalConditionCC
+    {
+        public int ApprovalCondition_ID { get; set; }
+        public int Type { get; set; }
+        public int AccId { get; set; }
+        public int Priority { get; set; }
+
+    }
+}

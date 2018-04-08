@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet;
+using ApprovalProject.Model;
+using ServiceStack.OrmLite;
+
+namespace ApprovalProject.Business
+{
+    public class ApprovalMapper : BaseMapper
+    {
+
+        public bool AddApprovalTemplet(Sp_Approvaltype model)
+        {
+            model.ID = (int)Orm.Insert(model, true);
+            return model.ID > 0;
+        }
+
+        public bool AddCustomfield(H_Customfield item)
+        {
+            item.ID = (int)Orm.Insert(item, true);
+            return item.ID > 0;
+        }
+    }
+}

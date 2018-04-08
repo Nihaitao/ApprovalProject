@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="simpleConf" type="SimpleConf.Client.Configuration.ClientConfConfigurationSection, SimpleConf.Client" />
+  </configSections>
+  <appSettings file="">
+    <clear />
+    <add key="dbConnectionString" value="data source=rm-bp193s4mopysh0jfho.mysql.rds.aliyuncs.com;port=3306;database=ctjy_test;uid=ctjy;pwd=Wshn1215;charset=utf8;" />
+    <add key="sessionState_host" value="101.132.42.194" />
+    <add key="sessionState_port" value="16379" />
+    <add key="sessionState_accessKey" value="wshn1215" />
+    <add key="applicationName" value="审批管理系统" />
+    <add key="serviceName" value="approvalApi" />
+    <add key="SMS_SRVURL" value="http://sms.253.com/msg/send" />
+    <add key="SMS_Un" value="11" />
+    <add key="SMS_Pw" value="1" />
+    <add key="consulAliveAddr" value="check/Alive" />
+    <add key="consulAliveInterval" value="10" />
+    <add key="consulAliveCriticalService" value="60" />
+    <add key="consulSrvUrl" value="http://47.97.163.229:7500/" />
+    <add key="consulSrvToken" value="wshn1215" />
+    <add key="exceptionLessServerUrl" value="http://47.97.163.229:5000/" />
+    <add key="redisConfiguration" value="101.132.42.194:16379,password=wshn1215,ssl=false" />
+    <add key="aliyun.oss.endpoint" value="oss-cn-hangzhou.aliyuncs.com" />
+    <add key="aliyun.oss.keyId" value="PnXQjuLDBFl7a20G" />
+    <add key="aliyun.oss.keySecret" value="C2rjvsUSJ2rtaQfIE1zk86pa9DHZUI" />
+    <add key="aliyun.oss.bucket" value="ctfive" />
+    <add key="aliyun.oss.host" value="http://ctfive.oss-cn-hangzhou.aliyuncs.com/" />
+    <add key="gateway.url" value="http://47.97.163.229:8080/" />
+  </appSettings>
+  <simpleConf tcpServer="121.196.224.25" tcpPort="2022" aliveInterval="10000" syncTimeOut="3000" receiveMaxSize="8192" />
+</configuration>

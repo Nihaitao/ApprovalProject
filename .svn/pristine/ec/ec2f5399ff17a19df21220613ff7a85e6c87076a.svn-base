@@ -1,0 +1,35 @@
+﻿using ApprovalProject.Business.Process;
+using CT.Common.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+
+namespace ApprovalProject.Web.Controller
+{
+    public class DefaultController : StationBaseApiController
+    {
+        ChoresMapper mapper = new ChoresMapper();
+        /// <summary>
+        /// 获取当前站点下所有部门 by SZF
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetDemptments()
+        {
+            return Success(mapper.GetDemptments(43));
+        }
+
+        /// <summary>
+        /// 获取当前站点下所有人员 by SZF
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetAccount()
+        {
+            return Success(mapper.GetAccount(43));
+        }
+    }
+}

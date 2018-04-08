@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<sqlMap namespace="ProcessStage" xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="getAllProcess" resultClass="map" parameterClass="map">
+      select * from Test
+      <dynamic prepend="where">
+        <isNotEmpty prepend="and" property="name">
+          `name`=#name#
+        </isNotEmpty>
+        <isNotNull  property="id">
+          <isNotEmpty prepend="and" property="id">
+            `name`=#id#
+          </isNotEmpty>
+        </isNotNull>
+      </dynamic>
+    </select>
+
+    
+    
+    <select id="GetApprovallistTotalCount" resultClass="int" parameterClass="map">
+      select count(1)
+      <include refid ="GetApprovallist_Fragment"></include>
+    </select>
+    <select id="GetApprovallist" resultClass="map" parameterClass="map">
+      SELECT
+      s.*, h.`Name` AS AddPersonName,
+      d.`Name` AS DepartmentName
+      <include refid ="GetApprovallist_Fragment"></include>
+    </select>
+    <sql id="GetApprovallist_Fragment">
+      FROM
+      sp_approvallist s
+      LEFT JOIN h_station_account h ON s.AddPerson = h.Account_ID
+      LEFT JOIN h_department d ON d.ID = s.Department_ID
+      WHERE
+      s.AddPerson = #AddPerson# and s.System_Station_ID=#System_Station_ID#
+      <isNotEmpty prepend="and" property="AddTime">
+        <![CDATA[s.AddTime >= #AddTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="FinishTime">
+        <![CDATA[s.FinishTime <= #FinishTime# ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalStatus">
+        s.ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+    
+    <select id="GetApprovallistccTotalCount" resultClass="int" parameterClass="map">
+      select count(1)
+      <include refid ="GetApprovallistcc_Fragment"></include>
+    </select>
+    <select id="GetApprovallistcc" resultClass="map" parameterClass="map">
+      SELECT
+      s.*, h.`Name` AS AddPersonName,
+      d.`Name` AS DepartmentName
+      <include refid ="GetApprovallistcc_Fragment"></include>
+    </select>
+    <sql id="GetApprovallistcc_Fragment">
+      FROM
+      sp_approvallist s
+      LEFT join sp_approvallistcc c on s.ID=c.ApprovalList_ID
+      LEFT JOIN h_station_account h ON s.AddPerson = h.Account_ID
+      LEFT JOIN h_department d ON d.ID = s.Department_ID
+      WHERE
+      c.AccID=#AccID# and s.System_Station_ID=#System_Station_ID#
+      <isNotEmpty prepend="and" property="AddTime">
+        <![CDATA[s.AddTime >= #AddTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="FinishTime">
+        <![CDATA[s.FinishTime <= #FinishTime# ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="0" prepend="and" property="Department_ID">
+        s.Department_ID=#Department_ID#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="AddPerson">
+        s.AddPerson=#AddPerson#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalStatus">
+        s.ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+    <select id="GetApprovalprocessTotalCount" resultClass="int" parameterClass="map">
+      select count(1)
+      <include refid ="GetApprovalprocess_Fragment"></include>
+    </select>
+    <select id="GetApprovalprocess" resultClass="map" parameterClass="map">
+      SELECT
+      s.*, h.`Name` AS AddPersonName,
+      d.`Name` AS DepartmentName
+      <include refid ="GetApprovalprocess_Fragment"></include>
+    </select>
+    <sql id="GetApprovalprocess_Fragment">
+      FROM
+      sp_approvallist s
+      LEFT JOIN sp_approvalprocess p on s.ID=p.ApprovalList_ID
+      LEFT JOIN h_station_account h ON s.AddPerson = h.Account_ID
+      LEFT JOIN h_department d ON d.ID = s.Department_ID
+      WHERE
+      p.AccID=#AccID# and p.operationStatus=1 and s.System_Station_ID=#System_Station_ID#
+      <isNotEmpty prepend="and" property="AddTime">
+        <![CDATA[s.AddTime >= #AddTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="FinishTime">
+        <![CDATA[s.FinishTime <= #FinishTime# ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="0" prepend="and" property="Department_ID">
+        s.Department_ID=#Department_ID#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="AddPerson">
+        s.AddPerson=#AddPerson#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalStatus">
+        s.ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+
+
+    <select id="GetNotApprovalprocessTotalCount" resultClass="int" parameterClass="map">
+      select count(1)
+      <include refid ="GetNotApprovalprocess_Fragment"></include>
+    </select>
+    <select id="GetNotApprovalprocess" resultClass="map" parameterClass="map">
+      SELECT
+      s.*, h.`Name` AS AddPersonName,
+      d.`Name` AS DepartmentName
+      <include refid ="GetNotApprovalprocess_Fragment"></include>
+    </select>
+    <sql id="GetNotApprovalprocess_Fragment">
+      FROM
+      sp_approvallist s
+      LEFT JOIN sp_approvalprocess p on s.ID=p.ApprovalList_ID
+      LEFT JOIN h_station_account h ON s.AddPerson = h.Account_ID
+      LEFT JOIN h_department d ON d.ID = s.Department_ID
+      WHERE
+      p.AccID=#AccID# and p.operationStatus=0 and s.System_Station_ID=#System_Station_ID#
+      <isNotEmpty prepend="and" property="AddTime">
+        <![CDATA[s.AddTime >= #AddTime# ]]>
+      </isNotEmpty>
+      <isNotEmpty prepend="and" property="FinishTime">
+        <![CDATA[s.FinishTime <= #FinishTime# ]]>
+      </isNotEmpty>
+      <isGreaterThan compareValue="0" prepend="and" property="Department_ID">
+        s.Department_ID=#Department_ID#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="AddPerson">
+        s.AddPerson=#AddPerson#
+      </isGreaterThan>
+      <isGreaterThan compareValue="0" prepend="and" property="ApprovalStatus">
+        s.ApprovalStatus=#ApprovalStatus#
+      </isGreaterThan>
+      <isEqual property="pageStatus" compareValue="1">
+        limit #pageIndex#, #pageSize#
+      </isEqual>
+    </sql>
+  </statements>
+</sqlMap>

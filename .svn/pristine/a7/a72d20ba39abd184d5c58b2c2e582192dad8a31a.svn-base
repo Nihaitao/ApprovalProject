@@ -1,0 +1,90 @@
+﻿using CT.Common.Mvc;
+using ApprovalProject.Business;
+using ApprovalProject.Business.Process;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using ServiceStack.OrmLite;
+using ApprovalProject.Model;
+
+
+namespace ApprovalProject.Web.Controller
+{
+    /// <summary>
+    /// 审批控制器
+    /// </summary>
+    public class ProcessController : StationBaseApiController
+    {
+        ProcessMapper ProMapper = new ProcessMapper();
+        ApprovallistMapper mapper = new ApprovallistMapper();
+        //获取审批
+        [HttpGet, AllowAnonymous] //AllowAnonymous允许控制器匿名访问
+        //我的申请
+        public dynamic GetApplyProcess(int id=0, string starttime=null, string endtime=null)
+        {
+            
+            ProMapper.GetAutoAllProcess();
+            //TestMapper mapper = new TestMapper();
+            //using (var session = mapper.OpenOrmSession())
+            //{
+            //    var stationAccount = session.Select<StationAccount>(x => x.Account_ID == id).FirstOrDefault();
+            //    mapper.selectTest("1123");
+            //}
+            return Success("11");
+        }
+        /// <summary>
+        /// 获取我提交的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetApprovallist([FromUri]Sp_Approvallist model) 
+        {
+            var dict = mapper.GetApprovallist(model,this.AccountID,this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovallistTotalCount(model ,this.AccountID,this.System_Station_ID) : 0);
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetApprovallistcc([FromUri]Sp_Approvallist model)
+        {
+            var dict = mapper.GetApprovallistcc(model, this.AccountID, this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovallistccTotalCount(model, this.AccountID, this.System_Station_ID) : 0);
+        }
+
+        /// <summary>
+        /// 获取我处理的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetApprovalprocess([FromUri]Sp_Approvallist model)
+        {
+            var dict = mapper.GetApprovalprocess(model, this.AccountID, this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovalprocessTotalCount(model, this.AccountID, this.System_Station_ID) : 0);
+        }
+
+        /// <summary>
+        /// 获取我未处理的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetNotApprovalprocess([FromUri]Sp_Approvallist model)
+        {
+            var dict = mapper.GetNotApprovalprocess(model, this.AccountID, this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetNotApprovalprocessTotalCount(model, this.AccountID, this.System_Station_ID) : 0);
+        }
+    }
+}

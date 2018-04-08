@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<sqlMap namespace="DemoMapper" xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="GetDemptments" resultClass="map" parameterClass="map">
+      SELECT d.* from h_department d LEFT JOIN h_company c on d.Company_ID=c.ID where c.System_Station_ID=#System_Station_ID# and c.`Enable`=1
+
+    </select>
+
+    <select id="GetAccount" resultClass="map" parameterClass="map">
+      SELECT* FROM h_station_account where System_Station_ID=#System_Station_ID# and Valid=1 and isDelete=0
+    </select>
+  </statements>
+</sqlMap>

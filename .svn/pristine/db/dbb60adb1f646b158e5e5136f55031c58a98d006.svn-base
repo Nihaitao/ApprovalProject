@@ -1,0 +1,96 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model.ViewModel
+{
+    public class Approvallist : PageModel
+    {
+        public int ID { get; set; }
+        /// <summary>
+        /// 提交时间
+        /// </summary>
+        public DateTime AddTime { get; set; }
+        /// <summary>
+        /// 结束时间
+        /// </summary>
+        public DateTime FinishTime { get; set; }
+        /// <summary>
+        /// 申请人
+        /// </summary>
+        public int AddPerson { get; set; }
+
+        /// <summary>
+        /// 申请人名称
+        /// </summary>
+        public string AddPersonName { get; set; }
+        /// <summary>
+        /// 申请人部门ID
+        /// </summary>
+        public int Department_ID { get; set; }
+        /// <summary>
+        /// 申请人部门
+        /// </summary>
+        public string DepartmentName { get; set; }
+        /// <summary>
+        /// 审批状态
+        /// </summary>
+        public int ApprovalStatus { get; set; }
+    }
+    
+    public class PaymentCode
+    {
+        /// <summary>
+        /// 科目代码
+        /// </summary>
+        public string Code { get; set; }
+        /// <summary>
+        /// 科目名称
+        /// </summary>
+        public string Name { get; set; }
+        /// <summary>
+        /// 标识符（是不是最后一级）
+        /// </summary>
+        public int IsEnd { get; set; }
+    }
+
+    public class ApprovallistVModel : Sp_Approvalprocess
+    {
+        public List<PaymentType> Payment { get; set; }
+        public List<PaymentType> LeftCode { get; set; }
+    }
+
+    
+    public class PaymentType
+    {
+        public string Code { get; set; }
+        public decimal Money { get; set; }
+        public string Time { get; set; }
+        public string Mark { get; set; }
+    }
+
+    //public class Voucher
+    //{
+    //    public DateTime Time { get; set; }
+    //    public int Type { get; set; }
+    //    public int Handler { get; set; }
+    //    public string No { get; set; }
+    //    public int Stationproxy_ID { get; set; }
+    //    public int IsStudent { get; set; }
+    //    public List<VoucherDetails> VoucherDetails { get; set; }
+
+    //}
+
+    public class VoucherDetails
+    {
+        public string Code { get; set; }
+        public string Title { get; set; }
+        public string Date { get; set; }
+        public decimal LeftMoney { get; set; }
+        public decimal RightMoney { get; set; }
+        public int Personal_ID { get; set; }
+ 
+    }
+}

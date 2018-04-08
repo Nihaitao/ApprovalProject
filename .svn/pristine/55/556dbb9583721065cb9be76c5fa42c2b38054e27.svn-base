@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<sqlMap namespace="DemoMapper" xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="selectTestStatement" resultClass="map" parameterClass="map">
+      select * from Test
+      <dynamic prepend="where">
+        <isNotEmpty prepend="and" property="name">
+          `name`=#name#
+        </isNotEmpty>
+        <isNotNul property="id">
+          <isNotEmpty prepend="and" property="id">
+            `name`=#id#
+          </isNotEmpty>
+        </isNotNul>
+      </dynamic>
+    </select>
+  </statements>
+</sqlMap>

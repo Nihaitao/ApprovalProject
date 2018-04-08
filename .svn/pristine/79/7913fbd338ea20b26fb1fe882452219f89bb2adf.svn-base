@@ -1,0 +1,56 @@
+﻿using ServiceStack.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model
+{
+    /// <summary>
+    /// 流程流程表
+    /// </summary>
+    public class Sp_Approvalprocess
+    {
+        [AutoIncrement]
+        [PrimaryKey]
+        public int ID { get; set; }
+        /// <summary>
+        /// 审批数据ID
+        /// </summary>
+        public int ApprovalList_ID { get; set; }
+        /// <summary>
+        /// 条件类型
+        /// </summary>
+        public string ConditionType { get; set; }
+        /// <summary>
+        /// 审批人ID
+        /// </summary>
+        public int AccID { get; set; }
+        /// <summary>
+        /// 审批方式
+        /// </summary>
+        public int CounterSign { get; set; }
+        /// <summary>
+        /// 批阅意见
+        /// </summary>
+        public string Remark { get; set; }
+        /// <summary>
+        /// 操作时间
+        /// </summary>
+        public DateTime operationTime { get; set; }
+        /// <summary>
+        /// 操作状态
+        /// </summary>
+        public int operationStatus { get; set; }
+        /// <summary>
+        /// 深度
+        /// </summary>
+        public int Deepth { get; set; }
+        /// <summary>
+        /// 当前转审ID
+        /// </summary>
+        public int ApprovalTransfer_ID { get; set; }
+
+    }
+}

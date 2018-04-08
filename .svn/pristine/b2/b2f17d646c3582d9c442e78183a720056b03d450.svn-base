@@ -1,0 +1,181 @@
+﻿using CT.Common.Mvc;
+using ApprovalProject.Business;
+using ApprovalProject.Business.Process;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using ServiceStack.OrmLite;
+using ApprovalProject.Model;
+using ApprovalProject.Model.ViewModel;
+
+
+namespace ApprovalProject.Web.Controller
+{
+    /// <summary>
+    /// 审批控制器
+    /// </summary>
+    public class ProcessController : StationBaseApiController
+    {
+        ProcessMapper ProMapper = new ProcessMapper();
+        ApprovallistMapper mapper = new ApprovallistMapper();
+        /// <summary>
+        /// 获取我提交的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet,AllowAnonymous]
+        public dynamic GetApprovallist([FromUri]SelectApprovalModel model)
+        {
+            var dict = mapper.GetApprovallist(model,model.ApprovalStatus, this.AccountID, 43);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovallistTotalCount(model,model.ApprovalStatus, this.AccountID, this.System_Station_ID) : 0);
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet, AllowAnonymous]
+        public dynamic GetApprovallistcc([FromUri]SelectApprovalModel model)
+        {
+            var dict = mapper.GetApprovallistcc(model, model.ApprovalStatus, this.AccountID, this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovallistccTotalCount(model,model.ApprovalStatus, this.AccountID, this.System_Station_ID) : 0);
+        }
+
+        /// <summary>
+        /// 获取我处理的审批
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet, AllowAnonymous]
+        public dynamic GetApprovalprocess([FromUri]SelectApprovalModel model)
+        {
+            var dict = mapper.GetApprovalprocess(model, model.ApprovalStatus, this.AccountID, this.System_Station_ID);
+            return Success(dict, model.PageIndex == 1 ? mapper.GetApprovalprocessTotalCount(model, model.ApprovalStatus, this.AccountID, this.System_Station_ID) : 0);
+        }
+        /// <summary>
+        /// 获取审批模板
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetApprovalTemplet()
+        {
+            return Success(mapper.GetApprovalTemplet(this.System_Station_ID));
+        }
+
+        /// <summary>
+        /// 审批模板启用禁用
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic EnditableApprovalTemplet(Sp_Approvaltype model)
+        {
+            return Success(mapper.EnditableApprovalTemplet(model));
+        }
+
+        /// <summary>
+        /// 删除审批模板
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic DeleteApprovalTemplet(Sp_Approvaltype model)
+        {
+            return Success(mapper.DeleteApprovalTemplet(model));
+        }
+        /// <summary>
+        /// 获取审批条件字段类型
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetApprovalField(int ApprovalID)
+        {
+            return Success(mapper.GetApprovalField(this.System_Station_ID, ApprovalID));
+        }
+
+        /// <summary>
+        /// 获取当前站点下所有人
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetAllAcoount()
+        {
+            return Success(mapper.GetAllAcoount(this.System_Station_ID));
+        }
+
+        /// <summary>
+        /// 保存申请记录，并且根据审批人的个数分别存入流程表 by SZF
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic SaveApprovalList(ApprovallistModel model)
+        {
+            return Success(mapper.SaveApprovalList(model,this.System_Station_ID, this.AccountID)?"操作成功":"操作失败");
+        }
+
+        /// <summary>
+        /// 根据审批ID查找审批的内容
+        /// </summary>
+        /// <auther>NHT</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetSelectApproval(int ApprovalListID)
+        {
+            return Success(mapper.GetSelectApproval(ApprovalListID));
+        }
+
+        /// <summary>
+        /// 根据审批ID查找审批的按钮是否显示
+        /// </summary>
+        /// <auther>szf</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public dynamic GetIsShow(int ApprovalListID)
+        {
+            return Success(mapper.GetIsShow(ApprovalListID,this.AccountID));
+        }
+
+        /// <summary>
+        /// 根据审批ID修改审批的状态和批阅意见
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic UpdateApprovalList(Sp_Approvalprocess model)
+        {
+            return Success(mapper.UpdateApprovalList(model,this.AccountID) ? "操作成功" : "操作失败");
+        }
+
+        /// <summary>
+        /// 根据审批ID转审给别人
+        /// </summary>
+        /// <auther>SZF</auther>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public dynamic Turnthetrial(TransferModel model)
+        {
+            return Success(mapper.Turnthetrial(model.ApprovalList_ID, this.AccountID, model.transferID, model.Remark) ? "操作成功" : "操作失败");
+        }
+    }
+}

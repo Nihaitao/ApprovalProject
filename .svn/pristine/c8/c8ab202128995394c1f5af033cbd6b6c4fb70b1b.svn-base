@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using CommonFramework;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet.SqlMap;
+using CommonFramework.Mvc;
+using CommonFramework.Mvc.Attribute;
+using CT.Common.Mvc;
+using ApprovalProject.Business;
+using ApprovalProject.Model;
+
+namespace ApprovalProject.Web.Controller
+{
+    public class DemoController : StationBaseApiController
+    {
+        [HttpGet, AllowAnonymous] //AllowAnonymous允许控制器匿名访问
+        public dynamic List(string name = null)
+        {
+            TestMapper mapper = new TestMapper();
+            var dict = mapper.selectTest(name);
+            return Success(dict);
+        }
+
+        [HttpGet, AllowAnonymous] //AllowAnonymous允许控制器匿名访问
+        public dynamic Add(string name = null)
+        {
+            TestMapper mapper = new TestMapper();
+            var dict = mapper.Add(name);
+            return Success("操作成功");
+        }
+
+        [HttpGet, AllowAnonymous] //AllowAnonymous允许控制器匿名访问
+        public dynamic Update(int id = 0, string name = null)
+        {
+            var test = new Test()
+            {
+                Id = id,
+                Name = name
+            };
+            TestMapper mapper = new TestMapper();
+            mapper.Update(test);
+             return Success("操作成功");
+        }
+    }
+}

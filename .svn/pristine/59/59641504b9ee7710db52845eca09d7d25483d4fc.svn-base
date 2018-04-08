@@ -1,0 +1,168 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet;
+using ApprovalProject.Model;
+using ServiceStack.OrmLite;
+using ApprovalProject.Model.ViewModel;
+
+namespace ApprovalProject.Business
+{
+    public class ApprovalMapper : BaseMapper
+    {
+
+        public bool AddApprovalTemplet(ApprovalTemplet templet, int System_Station_ID, int AccountID)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                Sp_Approvaltype model = new Sp_Approvaltype();
+                model.Name = templet.Name;
+                model.AddTime = DateTime.Now;
+                model.AddPersion = AccountID;
+                model.System_Station_ID = System_Station_ID;
+                model.Enditable = 1;//启用
+                model.BusType = 1;//非业务审核
+                model.EditApprover = templet.EditApprover;
+                if (Orm.Insert(model) > 0)
+                {
+                    //添加模板字段明细
+                    H_Customfield item = null;
+                    List<TempletField> field = templet.Field;
+                    for (int i = 0; i < field.Count; i++)
+                    {
+                        item = new H_Customfield();
+                        item.BusType = "approval_" + model.ID;
+                        item.CreateTime = DateTime.Now;
+                        item.System_Station_ID = System_Station_ID;
+                        item.IsEnable = 1;
+                        item.Name = field[i].fieldName;
+                        item.ShowName = field[i].fieldName;
+                        item.Required = field[i].Required;
+                        item.FieldType = field[i].fieldValue;
+                        item.SortID = i;
+                        if (field[i].fieldValue == 103 || field[i].fieldValue == 110)
+                        {
+                            string dataSource = "";
+                            foreach (TempletJson js in field[i].Option)
+                                dataSource += js.value + "|";
+                            item.DataSource = dataSource.TrimEnd('|');
+                        }
+                        if (Orm.Insert(item) > 0 && field[i].fieldValue == 0)
+                        {
+                            //添加模板字段明细子集
+                            List<TempletField> detail = field[i].DetailField;
+                            for (int j = 0; j < detail.Count; j++)
+                            {
+                                H_Customfield item2 = new H_Customfield();
+                                item2.BusType = "approval_" + model.ID;
+                                item2.CreateTime = DateTime.Now;
+                                item2.System_Station_ID = System_Station_ID;
+                                item2.IsEnable = 1;
+                                item2.Name = detail[j].fieldName;
+                                item2.ShowName = detail[j].fieldName;
+                                item2.Required = detail[j].Required;
+                                item2.FieldType = detail[j].fieldValue;
+                                item2.SortID = j;
+                                item2.PID = item.ID;
+                                if (detail[j].fieldValue == 103 || detail[j].fieldValue == 110)
+                                {
+                                    string dataSource = "";
+                                    foreach (TempletJson js in detail[j].Option)
+                                        dataSource += js.value + "|";
+                                    item2.DataSource = dataSource.TrimEnd('|');
+                                }
+                                Orm.Insert(item2);
+                            }
+                        }
+                    }
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+        public bool AddApprovalType(ApprovalTypeModel templet, int System_Station_ID, int AccountID)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                Sp_Approvalvisrange RangeModel = new Sp_Approvalvisrange();
+                RangeModel.ApprovalType_ID = templet.ApprovalType_ID;
+                RangeModel.AddTime = DateTime.Now;
+                foreach (var item in templet.Visrange)
+                {
+                    RangeModel.Type = item.Type;
+                    if (RangeModel.Type == 1)
+                    {
+                        RangeModel.AccID = item.AccID;
+                        RangeModel.DeptID = 0;
+                    }
+                    else if (item.Type == 2)
+                    {
+                        RangeModel.DeptID = item.DeptID;
+                        RangeModel.AccID = 0;
+                    }
+                    Orm.Insert(RangeModel);
+                }
+
+                Sp_Approvalcondition ditionModel = new Sp_Approvalcondition();
+                ditionModel.ApprovalType_ID = templet.ApprovalType_ID;
+                foreach (var item in templet.Condition)
+                {
+                    ditionModel.ConditionType = item.ConditionType;
+                    ditionModel.FieldId = item.FieldId;
+                    ditionModel.ConditionOp = item.ConditionOp;
+                    ditionModel.ContrastValue = item.ContrastValue;
+                    ditionModel.AddTime = DateTime.Now;
+                    ditionModel.AddPersion = AccountID;
+                    ditionModel.DeptIds = item.DeptIds;
+                    ditionModel.AccIds = item.AccIds;
+                    ditionModel.Priority = item.Priority;
+
+                    if (Orm.Insert(ditionModel)>0)
+                    {
+                        foreach (var itemlist in item.list)
+                        {
+                            Sp_ConditionApproveobject objectmodel = new Sp_ConditionApproveobject();
+                            objectmodel.ApprovalCondition_ID = ditionModel.ID;
+                            objectmodel.CounterSign = itemlist.CounterSign;
+                            objectmodel.Type = itemlist.Type;
+                            objectmodel.AccId = itemlist.AccId;
+                            objectmodel.AddTime = DateTime.Now;
+                            objectmodel.Priority = itemlist.Priority;
+
+                            Orm.Insert(objectmodel);
+                        }
+                        foreach (var listCCitem in item.listCC)
+                        {
+                            Sp_Approvalcc CCmodel = new Sp_Approvalcc();
+                            CCmodel.ApprovalCondition_ID = ditionModel.ID;
+                            CCmodel.AccId = listCCitem.AccId;
+                            CCmodel.Type = listCCitem.Type;
+                            CCmodel.AddTime = DateTime.Now;
+
+                            Orm.Insert(CCmodel);
+                        }
+                    }
+                }
+                return true;
+
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+    }
+}

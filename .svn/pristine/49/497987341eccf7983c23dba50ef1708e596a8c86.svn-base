@@ -1,0 +1,8 @@
+[2017-10-18 10:17:13,090][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-18 10:17:13,185][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-18 10:17:19,146][thdId:5]-[DEBUG]-[DemoProject.Web.Controller.DemoController][Testaaa]-- 666
+[2017-10-18 10:17:23,252][thdId:5]-[DEBUG]-[CommonFramework.Mvc.Filter.ExceptionFilterAttribute][ExecuteExceptionFilterAsync]-- 最最
+[2017-10-18 10:20:41,220][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"
+[2017-10-18 10:20:41,345][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.Statements.PreparedStatementFactory][Prepare]-- Statement Id: [addTest] Prepared SQL: [insert into `Test` (name) values( @param0 )]
+[2017-10-18 10:20:47,201][thdId:6]-[DEBUG]-[CommonFramework.Mvc.Filter.ExceptionFilterAttribute][ExecuteExceptionFilterAsync]-- 最最
+[2017-10-18 11:24:58,232][thdId:1]-[DEBUG]-[IBatisNet.DataMapper.Configuration.DomSqlMapBuilder][ParseGlobalProperties]-- Add property "useStatementNamespaces" value "false"

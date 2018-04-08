@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<sqlMap namespace="DemoMapper" xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <statements>
+    <select id="GetAllDepartment" resultClass="HRProject.Model.ViewModel.H_DepartmentModel" parameterClass="map">
+      SELECT
+      t.ID,
+      t.CID,
+      d.`Name` CName,
+      t. NAME,
+      s.Name as StationName,
+      t.AddTime,
+      t.AddPerson
+      FROM
+      h_department t
+      LEFT JOIN h_station s on t.System_Station_ID=s.ID
+      LEFT JOIN h_department d ON t.CID=d.ID
+      where t.System_Station_ID = #System_Station_ID#
+    </select>
+
+    <select id="GetAccountDepartment" resultClass="HRProject.Model.ViewModel.H_DepartmentModel" parameterClass="map">
+      SELECT
+      d.ID,
+      d.CID,
+      d.`Name`,
+      t.IsMain,
+      s.Name as StationName, s.Name as StationName,
+      t.IsManager,
+      t.Account_ID
+      FROM
+      h_station_account_department t
+      LEFT JOIN h_station s on t.System_Station_ID=s.ID
+      LEFT JOIN h_department d ON t.Department_ID=d.ID
+      where t.System_Station_ID=#System_Station_ID#
+      <isGreaterThan prepend="and" property="Account_ID" compareValue ="0">
+        t.Account_ID = #Account_ID#
+      </isGreaterThan>
+    </select>
+  </statements>
+</sqlMap>

@@ -1,0 +1,21 @@
+﻿using ServiceStack.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model
+{
+    public class Sp_ApprovalConditionCC
+    {
+        [AutoIncrement]
+        [PrimaryKey]
+        public int ID { get; set; }
+        public int ApprovalCondition_ID { get; set; }
+        public int Type { get; set; }
+        public int AccId { get; set; }
+        public int Priority { get; set; }
+
+    }
+}

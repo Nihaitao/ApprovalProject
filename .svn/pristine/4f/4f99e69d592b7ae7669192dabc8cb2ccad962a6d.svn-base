@@ -1,0 +1,60 @@
+﻿using ServiceStack.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model
+{
+    /// <summary>
+    /// 审批条件
+    /// </summary>
+    public class Sp_Approvalcondition
+    {
+        [AutoIncrement]
+        [PrimaryKey]
+        public int ID { get; set; }
+        /// <summary>
+        /// 审批类型
+        /// </summary>
+        public int ApprovalType_ID { get; set; }
+        /// <summary>
+        /// 条件类型 0为默认条件  1为申请人 2为自定义字段
+        /// </summary>
+        public int ConditionType { get; set; }
+        /// <summary>
+        /// 自定义字段ID
+        /// </summary>
+        public int FieldId { get; set; }
+        /// <summary>
+        /// 条件操作符
+        /// </summary>
+        public string ConditionOp { get; set; }
+        /// <summary>
+        /// 操作条件的对比值
+        /// </summary>
+        public string ContrastValue { get; set; }
+        /// <summary>
+        /// 添加时间
+        /// </summary>
+        public DateTime AddTime { get; set; }
+        /// <summary>
+        /// 添加人
+        /// </summary>
+        public int AddPersion { get; set; }
+        /// <summary>
+        /// 部门ID
+        /// </summary>
+        public string DeptIds { get; set; }
+        /// <summary>
+        /// 申请人
+        /// </summary>
+        public string AccIds { get; set; }
+        /// <summary>
+        /// 条件优先级
+        /// </summary>
+        public int Priority { get; set; }
+
+    }
+}

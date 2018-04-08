@@ -1,0 +1,123 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet;
+using ApprovalProject.Model;
+using ServiceStack.OrmLite;
+
+namespace ApprovalProject.Business
+{
+    public class ApprovalMapper : BaseMapper
+    {
+
+        public bool AddApprovalTemplet(Sp_Approvaltype model)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                model.ID = (int)Orm.Insert(model, true);
+
+                SqlMapper.CommitTransaction();
+                return model.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+
+        public bool AddCustomfield(H_Customfield item)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                item.ID = (int)Orm.Insert(item, true);
+
+                SqlMapper.CommitTransaction();
+                return item.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+        public bool AddApprovalvisRange(Sp_Approvalvisrange item)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                item.ID = (int)Orm.Insert(item, true);
+
+                SqlMapper.CommitTransaction();
+                return item.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+
+        public bool AddApprovalcondition(Sp_Approvalcondition item)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                item.ID = (int)Orm.Insert(item, true);
+
+                SqlMapper.CommitTransaction();
+                return item.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+        public bool AddApproveobject(Sp_ConditionApproveobject item)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                item.ID = (int)Orm.Insert(item, true);
+
+                SqlMapper.CommitTransaction();
+                return item.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+
+        public bool AddApprovalConditionCC(Sp_Approvalcc item)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                item.ID = (int)Orm.Insert(item, true);
+
+                SqlMapper.CommitTransaction();
+                return item.ID > 0;
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+    }
+}

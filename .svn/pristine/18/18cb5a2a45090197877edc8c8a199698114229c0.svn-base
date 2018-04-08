@@ -1,0 +1,94 @@
+﻿using ApprovalProject.Model;
+using CommonFramework.IBatisNet;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Business
+{
+    public class ApprovallistMapper : BaseMapper
+    {
+        /// <summary>
+        /// 获取我申请的审批列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovallist(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovallist", new { AddPerson = AccountID, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取我申请的审批列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovallistTotalCount(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovallistTotalCount", new { AddPerson = AccountID, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovallistcc(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovallistcc", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovallistccTotalCount(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovallistccTotalCount", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+        /// <summary>
+        /// 获取我已处理的列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovalprocess(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovalprocess", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取我已处理的列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovalprocessTotalCount(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovalprocessTotalCount", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+        /// <summary>
+        /// 获取我未处理的列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetNotApprovalprocess(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetNotApprovalprocess", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取我未处理的列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetNotApprovalprocessTotalCount(Sp_Approvallist model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetNotApprovalprocessTotalCount", new { AccID = AccountID, Department_ID = model.Department_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, AddTime = model.AddTime, FinishTime = model.FinishTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+    }
+}

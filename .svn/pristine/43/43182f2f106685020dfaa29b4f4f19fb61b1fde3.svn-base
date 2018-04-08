@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model.ViewModel
+{
+    public class Approvallist : PageModel
+    {
+        public int ID { get; set; }
+        /// <summary>
+        /// 提交时间
+        /// </summary>
+        public string AddTime { get; set; }
+        /// <summary>
+        /// 结束时间
+        /// </summary>
+        public string FinishTime { get; set; }
+        /// <summary>
+        /// 申请人
+        /// </summary>
+        public int AddPerson { get; set; }
+
+        /// <summary>
+        /// 申请人名称
+        /// </summary>
+        public string AddPersonName { get; set; }
+        /// <summary>
+        /// 申请人部门ID
+        /// </summary>
+        public int Department_ID { get; set; }
+        /// <summary>
+        /// 申请人部门
+        /// </summary>
+        public string DepartmentName { get; set; }
+        /// <summary>
+        /// 审批状态
+        /// </summary>
+        public int ApprovalStatus { get; set; }
+    }
+}

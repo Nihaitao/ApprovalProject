@@ -1,0 +1,10 @@
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ApprovalProject.Model.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ApprovalProject.Model.pdb
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ServiceStack.Common.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ServiceStack.Interfaces.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ServiceStack.OrmLite.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ServiceStack.OrmLite.MySql.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\bin\Release\ServiceStack.Text.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\obj\Release\ApprovalProject.Model.csprojResolveAssemblyReference.cache
+D:\公司项目-审批\trunk\ApprovalProject.Model\obj\Release\ApprovalProject.Model.dll
+D:\公司项目-审批\trunk\ApprovalProject.Model\obj\Release\ApprovalProject.Model.pdb

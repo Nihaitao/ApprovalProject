@@ -1,0 +1,468 @@
+﻿using ApprovalProject.Model;
+using ApprovalProject.Model.ViewModel;
+using CommonFramework.Exceptions;
+using CommonFramework.IBatisNet;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Business
+{
+    public class ApprovallistMapper : BaseMapper
+    {
+        /// <summary>
+        /// 获取我申请的审批列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovallist(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovallist", new { AddPerson = AccountID, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取我申请的审批列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovallistTotalCount(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovallistTotalCount", new { AddPerson = AccountID, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovallistcc(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovallistcc", new { AccID = AccountID, ApprovalType_ID = model.ApprovalType_ID, DeptermentID = model.DeptermentID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取抄送我的审批列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovallistccTotalCount(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovallistccTotalCount", new { AccID = AccountID, ApprovalType_ID = model.ApprovalType_ID, DeptermentID = model.DeptermentID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+        /// <summary>
+        /// 获取我已处理的列表
+        /// </summary>
+        /// <returns></returns>
+        public IList GetApprovalprocess(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return QueryForList("GetApprovalprocess", new { AccID = AccountID, ApprovalType_ID = model.ApprovalType_ID, model.DeptermentID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageIndex = (model.PageIndex - 1) * model.PageSize, pageSize = model.PageSize, pageStatus = model.PageStatus });
+        }
+
+        /// <summary>
+        /// 获取我处理的列表总条数
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public int GetApprovalprocessTotalCount(SelectApprovalModel model, int AccountID, int System_Station_ID)
+        {
+            return SqlMapper.QueryForObject<int>("GetApprovalprocessTotalCount", new { AccID = AccountID, model.DeptermentID, ApprovalType_ID = model.ApprovalType_ID, AddPerson = model.AddPerson, System_Station_ID = System_Station_ID, StartTime = model.StartTime, EndTime = model.EndTime, ApprovalStatus = model.ApprovalStatus, pageStatus = 0 });
+        }
+
+
+        /// <summary>
+        /// 审批模板启用禁用
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public dynamic EnditableApprovalTemplet(Sp_Approvaltype model)
+        {
+            Sp_Approvaltype temptle = Orm.Single<Sp_Approvaltype>(x => x.ID == model.ID);
+            if (temptle == null)
+            {
+                throw new ApiException("模板已删除或者不存在");
+            }
+            return SqlMapper.Update("EnditableApprovalTemplet", new { ID = model.ID, Enditable = model.Enditable });
+        }
+
+
+        /// <summary>
+        /// 删除审批模板
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public dynamic DeleteApprovalTemplet(Sp_Approvaltype model)
+        {
+            Sp_Approvaltype temptle = Orm.Single<Sp_Approvaltype>(x => x.ID == model.ID);
+            if (temptle == null)
+            {
+                throw new ApiException("模板已删除或者不存在");
+            }
+            return SqlMapper.Update("DeleteApprovalTemplet", new { ID = model.ID });
+        }
+        /// <summary>
+        /// 获取审批模板
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public IList GetApprovalTemplet(int System_Station_ID)
+        {
+            return QueryForList("GetApprovalTemplet", new { System_Station_ID });
+        }
+
+        /// <summary>
+        /// 获取审批条件字段类型
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public List<ApprovalFieldModel> GetApprovalField(int System_Station_ID, int ApprovalID)
+        {
+            string BusType = "";
+            if (ApprovalID > 0)
+            {
+                BusType = "approval_" + ApprovalID;
+            }
+            List<ApprovalFieldModel> List = SqlMapper.QueryForList<ApprovalFieldModel>("GetApprovalField", new { BusType, System_Station_ID }).ToList();
+
+            List<ApprovalFieldModel> ApprovalFiellist = new List<ApprovalFieldModel>();
+
+            ApprovalFieldModel model = new ApprovalFieldModel();
+            model.ID = 0;
+            model.Name = "申请人";
+            model.FieldType = 0;
+
+            ApprovalFiellist.Add(model);
+            ApprovalFiellist.AddRange(List);
+
+            return ApprovalFiellist;
+        }
+
+        /// <summary>
+        /// 获取当前站点下所有人
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public IList GetAllAcoount(int System_Station_ID)
+        {
+            return QueryForList("GetAllAcoount", new { System_Station_ID });
+        }
+
+        /// <summary>
+        /// 根据审批ID查找审批的内容
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public dynamic GetSelectApproval(int ApprovalListID)
+        {
+            ApprovalShow show = new ApprovalShow();
+            ApprovalInfoModel ApModel = SqlMapper.QueryForObject<ApprovalInfoModel>("GetApprovalInfoModel", new { ApprovalListID });
+            if (ApModel == null)
+                throw new ApiException("数据异常，请刷新重试");
+            show.ApModel = ApModel;
+            List<FieldShowModel> FieldList = SqlMapper.QueryForList<FieldShowModel>("GetApprovalFieldList", new { ApprovalListID, ID = ApModel.ID }).ToList();
+            if (FieldList != null)
+            {
+                show.FieldShow = FieldList.Where(x => x.PID == 0).ToList();
+                if (show.FieldShow != null)
+                {
+                    foreach (var item in show.FieldShow)
+                    {
+                        item.Details = FieldList.Where(x => x.PID == item.FieldID).ToList();
+                    }
+                }
+            }
+            List<ApprovalProcessModel> List = new List<ApprovalProcessModel>();
+            List<ApprovalProcessModel> ProcessList = SqlMapper.QueryForList<ApprovalProcessModel>("GetApprovalProcessList", new { ApprovalListID }).ToList();
+            List<ApprovalProcessModel> TransferList = SqlMapper.QueryForList<ApprovalProcessModel>("GetApprovalTransferListList", new { ApprovalListID }).ToList();
+            if (ProcessList != null)
+            {
+                foreach (ApprovalProcessModel item in ProcessList)
+                {
+                    ApprovalProcessModel temp = List.FirstOrDefault(x => x.Deepth == item.Deepth);
+                    //如果深度一致，说明是同一级审批
+                    if (temp != null)
+                    {
+                        AccountModel model = new AccountModel();
+                        model.State = temp.OperationStatus;
+                        model.Remark = temp.Remark;
+                        model.OperationTime = temp.OperationTime;
+                        model.AccountID = temp.AccID;
+                        model.AccountName = temp.AccName;
+                        if (temp.ApprovalTransfer_ID > 0)//转审
+                        {
+                            ApprovalProcessModel _temp = TransferList.FirstOrDefault(x => x.ID == temp.ApprovalTransfer_ID);
+                            if (_temp != null)
+                            {
+                                model.Transfer_AccountID = _temp.AccID;
+                                model.Transfer_AccountName = _temp.AccName;
+                                model.Transfer_OperationTime = _temp.OperationTime;
+                                model.State = _temp.OperationStatus;
+                                model.Remark = _temp.Remark;
+                            }
+                        }
+                        temp.AccountList.Add(model);
+                    }
+                    else //深度不一致，审批级别不同
+                    {
+                        AccountModel model = new AccountModel();
+                        model.State = item.OperationStatus;
+                        model.Remark = item.Remark == null ? "" : item.Remark;
+                        model.OperationTime = item.OperationTime;
+                        model.AccountID = item.AccID;
+                        model.AccountName = item.AccName;
+                        if (item.ApprovalTransfer_ID > 0)//转审
+                        {
+                            ApprovalProcessModel _temp = TransferList.FirstOrDefault(x => x.ID == item.ApprovalTransfer_ID);
+                            if (_temp != null)
+                            {
+                                model.Transfer_AccountID = _temp.AccID;
+                                model.Transfer_AccountName = _temp.AccName;
+                                model.Transfer_OperationTime = _temp.OperationTime;
+                                model.State = _temp.OperationStatus;
+                                model.Remark = _temp.Remark;
+                            }
+                        }
+                        item.AccountList = new List<AccountModel>();
+                        item.AccountList.Add(model);
+                        List.Add(item);
+                    }
+                }
+            }
+            show.ProcessList = List;
+            return show;
+        }
+
+
+        /// <summary>
+        /// 保存申请记录，并且根据审批人的个数分别存入流程表 by SZF
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public bool SaveApprovalList(ApprovallistModel model, int System_Station_ID, int AccountID)
+        {
+            if (model.Approvers == null || model.Approvers.Count == 0)
+                throw new ApiException("没有审批人，无法提交申请");
+            ///开启事物
+            try
+            {
+                SqlMapper.BeginTransaction();
+                ///审批记录表
+                Sp_Approvallist approvalmodel = new Sp_Approvallist();
+                approvalmodel.ApprovalType_ID = model.ID;
+                approvalmodel.System_Station_ID = System_Station_ID;
+                approvalmodel.AddPerson = AccountID;
+                approvalmodel.AddTime = DateTime.Now;
+                approvalmodel.FinishTime = DateTime.Now;
+                approvalmodel.ApprovalStatus = 0;
+                approvalmodel.MaxDeepth = model.Approvers.Count;
+                approvalmodel.CurrentDeepth = 1;
+                approvalmodel.CurrentCounterSign = model.Approvers[0].AccId > 0 ? 2 : model.Approvers[0].CounterSign;//0会签1或签2个签
+                int ID = (int)Orm.Insert(approvalmodel, true);
+
+                if (ID > 0)
+                {
+                    //审批内容
+                    foreach (var fielditem in model.Field)
+                    {
+                        H_Customfield_Value fieldvalue = new H_Customfield_Value();
+                        fieldvalue.BusType = 100;//审批bustype为100
+                        fieldvalue.BusID = ID;
+                        fieldvalue.Value = fielditem.Value != null ? string.Join(",", fielditem.Value) : "";
+                        fieldvalue.AddTime = DateTime.Now;
+                        fieldvalue.FieldName = fielditem.FieldName;
+                        if (Orm.Insert(fieldvalue) <= 0)
+                        {
+                            throw new ApiException("插入失败");
+                        }
+                        if (fielditem.Detail != null && fielditem.Detail.Count > 0)//判断明细里面是否存在数据
+                        {
+                            foreach (var item in fielditem.Detail)
+                            {
+                                H_Customfield_Value fieldvalue2 = new H_Customfield_Value();
+                                fieldvalue2.BusType = 100;//审批bustype为100
+                                fieldvalue2.BusID = ID;
+                                fieldvalue2.Value = item.Value != null ? string.Join(",", item.Value) : "";
+                                fieldvalue2.AddTime = DateTime.Now;
+                                fieldvalue2.FieldName = item.FieldName;
+                                if (Orm.Insert(fieldvalue2) <= 0)
+                                {
+                                    throw new ApiException("插入失败");
+                                }
+                            }
+                        }
+                    }
+                    //审批人流程
+                    List<Sp_Approvalprocess> list = new List<Sp_Approvalprocess>();
+                    for (int i = 0; i < model.Approvers.Count; i++)
+                    {
+                        ApprovalConditionObject approveritem = model.Approvers[i];
+                        Sp_Approvalprocess approval = new Sp_Approvalprocess();
+                        approval.ApprovalList_ID = ID;
+                        approval.Deepth = i + 1;
+                        approval.operationTime = DateTime.Now;
+                        if (approveritem.AccId > 0)
+                        {
+                            approval.CounterSign = 2;
+                            approval.AccID = approveritem.AccId;
+                            if (Orm.Insert(approval) <= 0)
+                            {
+                                throw new ApiException("插入失败");
+                            }
+                        }
+                        else
+                        {
+                            approval.CounterSign = approveritem.CounterSign;
+                            string[] arr = approveritem.AccIds.Split(',');
+                            foreach (var item in arr)
+                            {
+                                approval.AccID = int.Parse(item);
+                                if (Orm.Insert(approval) <= 0)
+                                {
+                                    throw new ApiException("插入失败");
+                                }
+                            }
+                        }
+                    }
+                    //抄送人
+                    List<Sp_Approvallistcc> listCC = new List<Sp_Approvallistcc>();
+                    if (model.ApproverCC != null)
+                    {
+                        foreach (var approveritem in model.ApproverCC)
+                        {
+                            Sp_Approvallistcc approval = new Sp_Approvallistcc();
+                            approval.ApprovalList_ID = ID;
+                            approval.AddTime = DateTime.Now;
+                            if (approveritem.AccId > 0)
+                            {
+                                approval.AccID = approveritem.AccId;
+                                if (Orm.Insert(approval) <= 0)
+                                {
+                                    throw new ApiException("插入失败");
+                                }
+                            }
+                            else
+                            {
+                                string[] arr = approveritem.AccIds.Split(',');
+                                foreach (var item in arr)
+                                {
+                                    approval.AccID = int.Parse(item);
+                                    if (Orm.Insert(approval) <= 0)
+                                    {
+                                        throw new ApiException("插入失败");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                //提交事物
+                SqlMapper.CommitTransaction();
+                return true;
+            }
+            catch (Exception)
+            {
+                ///事物回滚
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 根据审批ID修改审批的状态和批阅意见
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="stationId"></param>
+        /// <returns></returns>
+        public bool UpdateApprovalList(int ApprovalListID, int AccountID, int State)
+        {
+            try
+            {
+                SqlMapper.BeginTransaction();
+
+                Sp_Approvallist model = Orm.Single<Sp_Approvallist>(x => x.ID == ApprovalListID);
+                bool isUpdate = true;
+                int Depth = model.CurrentDeepth;
+                List<Sp_Approvalprocess> processmodel = SqlMapper.QueryForList<Sp_Approvalprocess>("GetApprovalprocessModel", new { ApprovalListID, Depth }).ToList();
+                if (processmodel.Count > 0)
+                {
+                    Sp_Approvalprocess _temp = processmodel.FirstOrDefault(x => x.AccID == AccountID);
+                    _temp.operationStatus = State;
+                    _temp.operationTime = DateTime.Now;
+                    Orm.Update<Sp_Approvalprocess>(_temp);
+
+                    List<Sp_Approvalprocess> processmodelnow = SqlMapper.QueryForList<Sp_Approvalprocess>("GetApprovalprocessModel", new { ApprovalListID, Depth }).ToList();
+                    if (model.CurrentCounterSign == 0)//会签定义一个true的变量，如果满足条件改变成False
+                    {
+                        foreach (Sp_Approvalprocess item in processmodelnow)
+                        {
+                            if (item.operationStatus == 1)
+                            {
+                                isUpdate = false;
+                            }
+                        }
+                        if (isUpdate)
+                        {
+                            if (model.CurrentDeepth == model.MaxDeepth)
+                            {
+                                model.ApprovalStatus = 2;
+                            }
+                            else
+                            {
+                                model.CurrentDeepth = model.CurrentDeepth + 1;
+                                model.ApprovalStatus = 2;
+                            }
+
+                            if (Orm.Update(model) > 0)
+                            {
+                                throw new ApiException("操作失败");
+                            }
+                        }
+                    }
+                    else//或签和个人的判断条件是一样的 只要判断自己是不是同意就OK了
+                    {
+                        if (_temp.operationStatus == 1)
+                        {
+                            if (model.CurrentDeepth == model.MaxDeepth)
+                            {
+                                model.ApprovalStatus = 2;
+                            }
+                            else
+                            {
+                                model.CurrentDeepth = model.CurrentDeepth + 1;
+                                model.ApprovalStatus = 2;
+                            }
+
+                            if (Orm.Update(model) > 0)
+                            {
+                                throw new ApiException("操作失败");
+                            }
+                        }
+                    }
+                    SqlMapper.CommitTransaction();
+                    return true;
+                }
+                else
+                {
+                    throw new ApiException("请查看本条记录是否存在");
+                }
+            }
+            catch (Exception)
+            {
+                SqlMapper.RollBackTransaction();
+                return false;
+            }
+            
+        }
+    }
+}

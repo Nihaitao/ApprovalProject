@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model.ViewModel
+{
+    public class TransferModel
+    {
+        public int transferID { get; set; }
+
+        public int ApprovalList_ID { get; set; }
+        public string Remark { get; set; }
+    }
+
+    public class ProcessTransferModel
+    {
+        public int AccID { get; set; }
+
+        public int AccID1 { get; set; }
+    }
+
+    public class FinanceModel 
+    {
+        public List<Sp_FinanceType> list { get; set; }
+    }
+}

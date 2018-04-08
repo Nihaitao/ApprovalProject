@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApprovalProject.Model.ViewModel
+{
+    public class ApprovalShow
+    {
+        public ApprovalInfoModel ApModel { get; set; }
+        public List<FieldShowModel> FieldShow { get; set; }
+
+        public List<ApprovalProcessModel> ProcessList { get; set; }
+    }
+
+
+    public class ApprovalInfoModel
+    {
+        public int ID { get; set; }
+        public string Title { get; set; }
+        public int ApprovalStatus { get; set; }
+    }
+
+    public class FieldShowModel
+    {
+        public int FieldID { get; set; }
+
+        public int PID { get; set; }
+        public string ShowName { get; set; }
+
+        public string ShowValue { get; set; }
+
+        public List<FieldShowModel> Details { get; set; }
+    }
+
+    public class ApprovalProcessModel
+    {
+        public int ID { get; set; }
+        public int CounterSign { get; set; }//0会签 1或签 2个签
+        public int OperationStatus { get; set; }//0未处理 1同意 2驳回 3处理中
+        public string OperationTime { get; set; }
+        public int Deepth { get; set; }
+        public int AccID { get; set; }
+        public string AccName { get; set; }
+        public string Remark { get; set; }
+        public int ApprovalTransfer_ID { get; set; }
+        public List<AccountModel> AccountList { get; set; }
+    }
+
+    public class AccountModel 
+    {
+        public int State { get; set; } //0未处理 1同意 2驳回
+        public string Remark { get; set; }
+        public string OperationTime { get; set; }
+        public int AccountID { get; set; }
+        public string AccountName { get; set; }
+        public int Transfer_AccountID { get; set; }//转审人ID
+        public string Transfer_AccountName { get; set; }
+        public string Transfer_OperationTime { get; set; }
+        public string Transfer_Remark { get; set; }
+
+    }
+}

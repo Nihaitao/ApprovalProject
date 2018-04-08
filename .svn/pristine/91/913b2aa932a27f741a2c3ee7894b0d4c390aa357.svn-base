@@ -1,0 +1,57 @@
+﻿using ApprovalProject.Web.Code;
+using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.IO;
+using System.Linq;
+using System.Web;
+using System.Web.Http;
+using System.Web.Security;
+using System.Web.SessionState;
+using CommonFramework;
+using ApprovalProject.Business;
+using IBatisNet.Common.Logging.Impl;
+
+namespace ApprovalProject.Web
+{
+    public class Global : System.Web.HttpApplication
+    {
+        protected void Application_Start(object sender, EventArgs e)
+       {
+            
+//            var a = typeof(log4net.LogManager).Assembly.FullName;
+//            var properties = new NameValueCollection();
+//            properties.Add("configType", "FILE");
+//            properties.Add("configFile", "log4net.config");
+//            var log4NetLoggerFA = new Log4NetLoggerFA(properties);
+           Develop.Debug = true;
+            Develop.Properties.Add("RequestId",Guid.NewGuid().ToString("N"));
+            CommonFramework.IBatisNet.BaseMapper.Configure();
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+        }
+
+        protected void Session_Start(object sender, EventArgs e)
+        {
+        }
+
+        protected void Application_BeginRequest(object sender, EventArgs e)
+        {
+        }
+
+        protected void Application_AuthenticateRequest(object sender, EventArgs e)
+        {
+        }
+
+        protected void Application_Error(object sender, EventArgs e)
+        {
+        }
+
+        protected void Session_End(object sender, EventArgs e)
+        {
+        }
+
+        protected void Application_End(object sender, EventArgs e)
+        {
+        }
+    }
+}
